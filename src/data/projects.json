@@ -408,8 +408,9 @@
           "role": "Personal Project",
           "status": "maintaining",
           "period": "2026.06.18 - now",
+          "url": "https://postmelee.github.io/liquid-portfolio/",
           "description": "macOS desktop과 App Store에서 영감을 받은 liquid-glass 스타일의 인터랙티브 포트폴리오 웹앱입니다.",
-          "stacks": ["React", "TypeScript", "Vite", "Liquid DOM", "Use Gesture", "Lucide React"],
+          "stacks": ["React", "TypeScript", "Vite", "Liquid DOM"],
           "bullets": [
             {
               "segments": [{ "text": "Liquid DOM 기반으로 포트폴리오를 데스크톱형 glass UI 경험으로 재구성" }],
@@ -424,16 +425,9 @@
                 { "segments": [{ "text": "GitHub, release, product site, project resource 링크를 각 프로젝트 detail 안에서 맥락에 맞게 노출" }] },
                 { "segments": [{ "text": "@liquid-dom/react와 @use-gesture/react를 사용해 glass surface, hover, gesture 기반 인터랙션을 구성" }] }
               ]
-            },
-            {
-              "segments": [{ "text": "GitHub Pages 배포에 맞춘 Vite 기반 정적 사이트 구성" }],
-              "children": [
-                { "segments": [{ "text": "Vite base path와 GitHub Actions 배포 workflow를 설정해 main push 기준으로 Pages에 자동 배포되도록 구성" }] }
-              ]
             }
           ],
           "links": [
-            { "label": "Live Site", "href": "https://postmelee.github.io/liquid-portfolio/" },
             { "label": "GitHub", "href": "https://github.com/postmelee/liquid-portfolio" }
           ]
         },
