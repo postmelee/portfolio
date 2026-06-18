@@ -125,6 +125,14 @@ const technologyLinkRules = [
     keywords: ['vite'],
   },
   {
+    href: 'https://github.com/AndrewPrifer/liquid-dom',
+    keywords: ['liquid dom', '@liquid-dom/react'],
+  },
+  {
+    href: 'https://github.com/pmndrs/use-gesture',
+    keywords: ['use gesture', '@use-gesture/react'],
+  },
+  {
     href: 'https://github.com/vitest-dev/vitest',
     keywords: ['vitest'],
   },
