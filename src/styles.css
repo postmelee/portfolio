@@ -364,6 +364,25 @@ a:hover {
   .section-toc-sublink {
     pointer-events: auto;
   }
+
+  .section-toc-sublink::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12px;
+    width: 2px;
+    content: '';
+    background: transparent;
+    transition: background-color 160ms ease;
+  }
+
+  .section-toc-sublink-active {
+    border-left-color: transparent;
+  }
+
+  .section-toc-sublink-active::before {
+    background: rgba(0, 102, 204, 0.72);
+  }
 }
 
 .header-menu {
