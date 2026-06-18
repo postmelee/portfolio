@@ -1,0 +1,558 @@
+{
+  "sections": [
+    {
+      "id": "experience",
+      "title": "Work Experience",
+      "entries": [
+        {
+          "id": "chika-chika",
+          "title": "치카치카",
+          "role": "Frontend Developer",
+          "period": "2020.11.23 - 2021.06.30",
+          "stacks": [
+            "React Native",
+            "TypeScript",
+            "Redux",
+            "React Navigation",
+            "Reanimated",
+            "Firebase Cloud Messaging",
+            "Naver Map",
+            "Swift",
+            "Objective-C",
+            "AWS S3"
+          ],
+          "description": "우리동네 치과정보 플랫폼, 치아 이미지 기반 AI 치아 상태 수치화 및 관리 서비스",
+          "bullets": [
+            {
+              "segments": [{ "text": "iOS 네이티브 사진 선택 모듈 개발로 이미지 로딩 체감 성능 개선" }],
+              "children": [
+                { "segments": [{ "text": "Swift + Objective-C 브리지 기반 iOS 네이티브 앨범 UI를 React Native에 연결" }] },
+                { "segments": [{ "text": "Hybrid app framework의 느린 사진 로딩 문제를 native thumbnail caching 방식으로 약 3초에서 약 0.1초 수준으로 개선" }] },
+                {
+                  "segments": [
+                    { "text": "성능 개선 경험을 " },
+                    { "text": "react-native-kakao-album", "href": "https://github.com/postmelee/react-native-kakao-album" },
+                    { "text": "으로 모듈화해 공개" }
+                  ]
+                }
+              ]
+            },
+            {
+              "segments": [{ "text": "네이버지도 기반 위치 검색 UX와 오픈소스 라이브러리 기여" }],
+              "children": [
+                { "segments": [{ "text": "Geolocation + NaverMapView + Marker 기반 주변 치과 지도, 마커 포커싱, 리스트/캐러셀 동기화 UX 구현" }] },
+                { "segments": [{ "text": "영업시간, 요일, 휴일, 주차, 전문의, 야간진료 등 다중 필터와 지도 중심 좌표 기반 주변 치과 조회 API 연동" }] },
+                {
+                  "segments": [
+                    { "text": "QuadFlask/react-native-naver-map", "href": "https://github.com/QuadFlask/react-native-naver-map" },
+                    { "text": " 사용 중 필요한 iOS marker 확장값을 " },
+                    { "text": "PR #70", "href": "https://github.com/QuadFlask/react-native-naver-map/pull/70" },
+                    { "text": "으로 기여" }
+                  ]
+                }
+              ]
+            },
+            {
+              "segments": [{ "text": "React Native TextInput을 깊게 커스텀한 게시글 작성 경험" }],
+              "children": [
+                { "segments": [{ "text": "글 작성 중 커서 위치를 기준으로 해시태그 추천/삽입 UX를 구현하고, 저장된 해시태그를 게시글 본문 안에서 렌더링" }] },
+                { "segments": [{ "text": "게시글 작성/수정/삭제, 상세, 댓글, 좋아요, 스크랩 API를 연결하고 여러 목록에 중복 노출되는 게시글 상태를 Redux reducer에서 동기화" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "App Store 배포까지 포함한 React Native 앱 출시 경험" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "개발한 주요 기능이 포함된 iOS 앱을 " },
+                    { "text": "App Store", "href": "https://apps.apple.com/kr/app/%EC%B9%98%EC%B9%B4%EC%B9%98%EC%B9%B4-%EA%B5%90%EC%A0%95-%EB%A6%AC%EB%B7%B0-%EC%B9%98%EA%B3%BC-%EC%B6%94%EC%B2%9C/id1546445561?l=en" },
+                    { "text": "에 배포" }
+                  ]
+                },
+                { "segments": [{ "text": "iOS 권한, 네이티브 모듈, 이미지 업로드, push notification 등 실제 배포 환경에서 문제가 되기 쉬운 기능을 함께 검증" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "복잡한 모바일 화면 흐름과 프로필 인터랙션 구현" }],
+              "children": [
+                { "segments": [{ "text": "Bottom Tab, Stack, Top Tab, Shared Element Navigation을 조합해 홈, 지도, 리뷰, 커뮤니티, 프로필, 알림 화면 흐름 구현" }] },
+                { "segments": [{ "text": "타 사용자 프로필에서 Reanimated, react-native-tab-view, gesture-handler 기반 collapsible profile header 및 탭별 FlatList scroll offset 동기화 구현" }] },
+                { "segments": [{ "text": "내 정보 수정, 찜한 병원, 예약피드, 작성한 글, 스크랩/좋아요/댓글단 글을 후기글·수다글 단위로 분리해 탐색 가능하게 구성" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "Firebase Cloud Messaging 기반 푸시 알림 및 라우팅 구현" }],
+              "children": [
+                { "segments": [{ "text": "로그인/회원가입 flow에 FCM token을 연동하고 foreground notification 수신 애니메이션 처리" }] },
+                { "segments": [{ "text": "community/review 알림 클릭 시 관련 게시글·리뷰 상세 화면으로 deep link 라우팅" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "이미지 업로드와 공용 UI 컴포넌트 모듈화" }],
+              "children": [
+                { "segments": [{ "text": "CameraRoll/ImagePicker 기반 이미지 선택과 AWS S3 업로드 flow를 프로필, 커뮤니티, 리뷰, 제보 화면에 연결" }] },
+                { "segments": [{ "text": "react-native-gesture-handler + Reanimated 기반 이미지 Pinch Zoom & Pan 컴포넌트 구현" }] },
+                {
+                  "segments": [
+                    { "text": "인스타그램 프로필 설정과 유사한 bottom sheet UI를 " },
+                    { "text": "react-native-animated-bottom-sheet", "href": "https://github.com/postmelee/react-native-animated-bottom-sheet" },
+                    { "text": "로 모듈화해 공개" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "links": [
+            {
+              "label": "App Store",
+              "href": "https://apps.apple.com/kr/app/%EC%B9%98%EC%B9%B4%EC%B9%98%EC%B9%B4-%EA%B5%90%EC%A0%95-%EB%A6%AC%EB%B7%B0-%EC%B9%98%EA%B3%BC-%EC%B6%94%EC%B2%9C/id1546445561?l=en"
+            },
+            { "label": "상세정보(치카치카)", "href": "https://app.notion.com/p/melee/9a0cfbfcc515474da712edb37ba8c3c7?pvs=25" },
+            { "label": "원본 소스코드", "href": "https://github.com/chikachikaApp/chika-chika-app" },
+            { "label": "사진 로딩 성능 개선 기록", "href": "https://app.notion.com/p/8c3f10e36f1540cd93babce01a5d3a8e" }
+          ],
+          "awards": [
+            { "label": "[서울대학교 + 경기도 + 차세대융합기술연구원] 2021 경기도 대학생 융합기술 창업지원", "href": "https://app.notion.com/p/melee/2021-60a27806147e4707a2905afb00de67ad?pvs=25" },
+            { "label": "KVP 5기 장려상", "href": "https://app.notion.com/p/melee/KVP-5-8c0a807a23f147c499f17a946a1d6806?pvs=25" },
+            { "label": "2021 북부 경기문화창조허브 융합콘텐츠 창업지원", "href": "https://app.notion.com/p/melee/2021-55c9ee74dc1a484dbd1499ce76ffd2b7?pvs=25" }
+          ]
+        },
+        {
+          "id": "turtle-school",
+          "title": "거북스쿨",
+          "role": "Frontend Developer",
+          "period": "2021.07.20 - 2021.12.31",
+          "url": "https://www.turtleschool.kr/",
+          "description": "입시 컨설팅, 내신/모의고사 성적 분석을 제공하는 Next.js 기반 학원 운영 플랫폼의 프론트엔드 화면과 데이터 연동을 개발·유지보수했습니다.",
+          "stacks": [
+            "React",
+            "Next.js",
+            "JavaScript",
+            "Axios",
+            "Material UI",
+            "Styled Components",
+            "Highcharts",
+            "Chart.js"
+          ],
+          "bullets": [
+            {
+              "segments": [{ "text": "실제 사용자와 작업지시자의 실시간 요청·버그에 대응한 운영형 프론트엔드 개발" }],
+              "children": [
+                { "segments": [{ "text": "입시 컨설팅 서비스 특성상 수시로 바뀌는 기획과 화면 요구사항을 도메인별 pages, shared layout, 독립 컴포넌트 단위로 흡수" }] },
+                { "segments": [{ "text": "운영 중 발견되는 입력 오류, 결과 표시, 접근 흐름 문제를 빠르게 수정할 수 있도록 화면 상태와 API 연동 지점을 분리해 관리" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "변경이 잦은 논술 컨설팅 flow를 단계형 wizard 구조로 구현" }],
+              "children": [
+                { "segments": [{ "text": "문과/이과/의치대 논술 컨설팅을 점수 입력, 최저 등급 확인, 교차지원, 내신 유리 대학, 전형일/학과 선택, 최종 결정 단계로 구성" }] },
+                { "segments": [{ "text": "page title 배열과 step tag 기반 component map으로 단계 구성을 분리해, 단계 추가·순서 변경이 화면 전체 수정으로 번지지 않게 설계" }] },
+                { "segments": [{ "text": "대학 선택 상태를 객체 map으로 관리하고 useMemo로 선택 코드와 최종 대학 데이터를 파생해 단계별 컴포넌트에 전달" }] },
+                { "segments": [{ "text": "단계 이동 전 필수 선택값을 검증하고 추천/제외 대학 결과를 차트와 리스트로 제공" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "내신/입시 성적 분석 데이터를 비교 가능한 UI로 시각화" }],
+              "children": [
+                { "segments": [{ "text": "Highcharts, Chart.js 기반으로 내신 등급, Z점수, 성적 변화 추이, 합격 진단 데이터를 시각화" }] },
+                { "segments": [{ "text": "과목, 학기, 조합 필터와 chart series 토글을 구현해 복잡한 입시 데이터를 사용자가 비교 가능한 형태로 구성" }] },
+                { "segments": [{ "text": "내신 성적 입력, 수정/삭제 flow를 백엔드 API와 연동하고 입력 상태와 서버 응답을 화면에 반영" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "Next.js 기반 입시/학원 운영 서비스 화면 구조 개발" }],
+              "children": [
+                { "segments": [{ "text": "pages 라우팅 기반으로 수시, 정시, 내신, 모의고사, 논술, 마이클래스, 설정, 관리자 도메인 화면 구성" }] },
+                { "segments": [{ "text": "UserAgent 기반으로 데스크톱/모바일 화면을 분기하고, 도메인별 UX를 독립 컴포넌트로 관리" }] },
+                { "segments": [{ "text": "로그인 상태와 회원정보 입력 여부에 따라 Layout, 라우팅, 접근 흐름을 제어하는 전역 앱 구조 구현" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "PostgreSQL 기반 백엔드 API와 프론트엔드 화면 연동" }],
+              "children": [
+                { "segments": [{ "text": "백엔드 개발자가 SQL과 서버 로직으로 구현한 members, gpa, exams 도메인 API를 화면 요구사항에 맞춰 연동" }] },
+                { "segments": [{ "text": "사용자 auth header 기반 조회/저장 요청과 도메인별 API 응답을 프론트 상태와 결합해 운영 중 요청사항에 대응" }] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Open Source",
+      "entries": [
+        {
+          "id": "hyper-waterfall",
+          "title": "hyper-waterfall",
+          "role": "Maintainer",
+          "status": "maintaining",
+          "period": "2026.05.01 - now",
+          "url": "https://github.com/postmelee/hyper-waterfall",
+          "description": "AI pair programming을 Issue, plan, stage report, PR로 추적 가능한 개발 프로세스에 묶는 방법론 harness입니다.",
+          "stacks": ["JavaScript", "Node.js", "Dry-run CLI", "Repository Adoption", "GitHub Issues", "Markdown Templates", "Agent Workflow", "Documentation"],
+          "bullets": [
+            {
+              "segments": [{ "text": "AI pair programming을 작은 task 단위의 승인 가능한 개발 프로세스로 구조화" }],
+              "children": [
+                { "segments": [{ "text": "1 Issue = 1 Task = 1 Branch = 1 Session 규칙으로 작업 scope와 AI session context를 작게 유지하고, task가 끝나면 session도 닫히도록 workflow 설계" }] },
+                { "segments": [{ "text": "Issue → branch → task plan → implementation plan → Stage report → final report → PR 흐름을 고정하고, source edit·stage 전환·final report·PR 생성 전 approval gate를 둬 사람이 방향과 품질을 결정" }] },
+                { "segments": [{ "text": "Stage report, commit, PR summary에 변경 이유·산출물·검증 결과를 남겨 리뷰어가 chat log를 뒤지지 않고 repository artifact만으로 변경 맥락을 확인 가능" }] },
+                { "segments": [{ "text": "독립 Issue는 local/taskN branch 또는 별도 worktree에서 병렬로 진행할 수 있게 해 여러 AI session의 context와 변경 범위가 섞이지 않도록 구성" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "실제 프로젝트에 적용해 문서 증류와 PR 처리 흐름 검증" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "alhangeul-macos의 " },
+                    { "text": "릴리즈 노트 자동화 이슈 #356", "href": "https://github.com/postmelee/alhangeul-macos/issues/356" },
+                    { "text": "와 " },
+                    { "text": "PR #358", "href": "https://github.com/postmelee/alhangeul-macos/pull/358" },
+                    { "text": "처럼 이슈 기반 계획, 작업 로그, 최종 보고, PR 리뷰 단위를 연결" }
+                  ]
+                },
+                {
+                  "segments": [
+                    { "text": "Chrome 확장 프로젝트 " },
+                    { "text": "crop", "href": "https://github.com/postmelee/crop" },
+                    { "text": "에도 동일한 mydocs/issue/PR 기록 구조를 적용해 개발 의사결정과 검증 맥락을 저장소 문서로 남김" }
+                  ]
+                },
+                { "segments": [{ "text": "휘발되는 대화 내용을 Issue, 계획서, stage report, commit, PR 문서로 증류해 다음 세션과 리뷰자가 재사용 가능한 작업 메모리로 전환" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "재개 가능한 작업 메모리를 GitHub 저장소 안에 구축" }],
+              "children": [
+                { "segments": [{ "text": "작업 기록이 단순 로그가 아니라 다음 task의 입력 prompt가 되도록 구성해, 새 AI session이나 새 contributor가 repository artifact만 읽고 같은 baseline에서 재개 가능" }] },
+                { "segments": [{ "text": "Obsidian vault에 LLM을 연결해 개인 지식 저장소를 context로 쓰는 구조를 GitHub에 옮겨, mydocs/를 intent, plan, verification, artifact, troubleshooting이 누적되는 업무 이력 전용 vault로 활용" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "CLI dry-run 기반 기존 저장소 adoption flow 구현" }],
+              "children": [
+                { "segments": [{ "text": "npx hyper-waterfall init --repo . --locale ko --dry-run 및 Homebrew CLI로 기존 저장소에 적용하기 전 생성·수정 후보와 lifecycle judgment를 먼저 확인할 수 있게 구성" }] },
+                { "segments": [{ "text": "AI가 adoption mode, 파일 변경 후보, placeholder 치환 여부, approval request를 먼저 보고하고 승인 이후에만 AGENTS/CLAUDE, Issue template, PR template, mydocs 구조를 생성·수정하도록 설계" }] },
+                { "segments": [{ "text": "en/ko/zh-CN locale pack으로 팀 문서 언어를 유지하면서도 같은 workflow framework를 새 저장소와 운영 중인 저장소 모두에 이식 가능하게 구성" }] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "alhangeul-macos",
+          "title": "alhangeul-macos",
+          "role": "Maintainer",
+          "status": "maintaining",
+          "period": "2026.04.23 - now",
+          "url": "https://github.com/postmelee/alhangeul-macos",
+          "description": "HWP/HWPX 파일을 macOS에서 미리보고, 열고, 저장·공유·PDF 내보내기까지 처리하는 오픈소스 macOS 앱입니다.",
+          "stacks": ["Swift", "SwiftUI", "AppKit", "Quick Look", "Finder Thumbnail", "WKWebView", "Rust FFI", "rhwp", "Sparkle", "GitHub Actions", "Visual Diff", "AI Workflow", "DMG Notarization"],
+          "bullets": [
+            {
+              "segments": [{ "text": "공개 배포 후 사용자 지표와 이슈를 기반으로 제품 개선" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "GitHub Releases 기준 누적 다운로드 " },
+                    { "text": "3,714회", "href": "https://github.com/postmelee/alhangeul-macos/releases" },
+                    { "text": "(2026.06 기준)를 공개적으로 확인 가능한 사용 지표로 추적" }
+                  ]
+                },
+                {
+                  "segments": [
+                    { "text": "Quick Look 렌더링 문제 " },
+                    { "text": "#307", "href": "https://github.com/postmelee/alhangeul-macos/issues/307" },
+                    { "text": ", 폰트/PUA 표시 문제 " },
+                    { "text": "#305", "href": "https://github.com/postmelee/alhangeul-macos/issues/305" },
+                    { "text": "처럼 실제 문서 렌더링 이슈를 추적하고 수정 방향을 문서화" }
+                  ]
+                }
+              ]
+            },
+            {
+              "segments": [{ "text": "macOS 네이티브 문서 앱 경험과 rhwp 렌더링 코어 통합" }],
+              "children": [
+                { "segments": [{ "text": "SwiftUI HostApp, Quick Look preview, Finder thumbnail extension을 구성해 HWP/HWPX 파일을 Finder와 앱에서 다룰 수 있게 구현" }] },
+                { "segments": [{ "text": "rhwp-studio를 WKWebView 기반 viewer/editor로 포함하고, Quick Look/Thumbnail/PDF 경로에는 Swift/Rust bridge 렌더링 경로를 연결" }] },
+                { "segments": [{ "text": "UTI 등록, 파일 열기, 최근 문서, security-scoped bookmark, 공유 sheet, PDF 내보내기 등 macOS 문서 앱 흐름 연결" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "AI 협업을 전제로 한 회귀 방지·릴리즈 자동화 구조 구축" }],
+              "children": [
+                { "segments": [{ "text": "렌더링 fixture와 visual diff 중심 검증 흐름을 도입해 Quick Look/Thumbnail/PDF 렌더 정합성과 회귀 여부를 추적 가능하게 구성" }] },
+                {
+                  "segments": [
+                    { "text": "릴리즈 노트 작성 규칙과 체크리스트를 " },
+                    { "text": "이슈 #356", "href": "https://github.com/postmelee/alhangeul-macos/issues/356" },
+                    { "text": " / " },
+                    { "text": "PR #358", "href": "https://github.com/postmelee/alhangeul-macos/pull/358" },
+                    { "text": "로 정리해 AI가 PR/Issue 기록을 근거로 릴리즈 문서를 생성할 수 있게 자동화" }
+                  ]
+                },
+                { "segments": [{ "text": "기술 문서, 환경 설정, 작업 지침 파일을 규격화해 반복되는 build/test/release 판단을 AI와 사람이 같은 기준으로 수행하도록 정리" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "GitHub Actions 기반 CI/CD와 upstream 동기화 자동화" }],
+              "children": [
+                { "segments": [{ "text": "PR CI, release rehearsal, release publish, Pages 문서 배포 workflow를 구성해 macOS 앱 빌드와 배포 기준을 자동 검증" }] },
+                {
+                  "segments": [
+                    { "text": "rhwp upstream 감지 후 자동 동기화 PR을 만드는 workflow를 확장하고 " },
+                    { "text": "PR #350", "href": "https://github.com/postmelee/alhangeul-macos/pull/350" },
+                    { "text": ", bot 동기화 " },
+                    { "text": "PR #349", "href": "https://github.com/postmelee/alhangeul-macos/pull/349" },
+                    { "text": "로 실제 갱신 흐름 검증" }
+                  ]
+                },
+                { "segments": [{ "text": "웹페이지 릴리즈 기준과 upstream 갱신 지침을 문서화해 AI가 변경 범위, 검증 항목, 배포 문구를 일관되게 처리하도록 설계" }] }
+              ]
+            }
+          ],
+          "links": [
+            { "label": "Product Site", "href": "https://postmelee.github.io/alhangeul-macos/" }
+          ]
+        },
+        {
+          "id": "crop",
+          "title": "crop",
+          "role": "Maintainer",
+          "status": "maintaining",
+          "period": "2026.05.24 - now",
+          "url": "https://github.com/postmelee/crop",
+          "description": "Chrome Manifest V3 기반으로 DOM 요소 또는 사용자 지정 영역을 정밀 캡처하는 스크린샷 확장 프로그램입니다.",
+          "stacks": ["TypeScript", "Chrome MV3", "Vite", "Vitest", "DOM API", "Canvas"],
+          "bullets": [
+            {
+              "segments": [{ "text": "Firefox 기본 스크린샷 경험을 Chrome 확장 프로그램으로 가져오려는 시도" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "Firefox Screenshots의 요소 선택 경험을 참고하고 " },
+                    { "text": "firefox-derived", "href": "https://github.com/postmelee/crop/tree/main/src/firefox-derived" },
+                    { "text": " 코드를 분리해 MPL-2.0 provenance를 명확히 관리" }
+                  ]
+                },
+                { "segments": [{ "text": "Chrome Manifest V3 제약 안에서 DOM hover highlight, element capture, custom region capture, copy/save flow를 재구현" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "브라우저 보안 모델 때문에 생기는 캡처 한계를 제품 설계에 반영" }],
+              "children": [
+                { "segments": [{ "text": "cross-origin iframe, closed Shadow DOM, chrome:// 같은 restricted page는 확장 프로그램 권한으로도 내부 DOM을 안정적으로 검사할 수 없음을 명시" }] },
+                { "segments": [{ "text": "full-page stitching 중 fixed/sticky 요소, 동적 페이지, canvas size limit/downscale 문제로 완벽한 native screenshot API와 동일한 결과를 보장하기 어렵다는 한계를 정리" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "페이지 위에 주입되는 캡처 오버레이와 선택 인터랙션 구현" }],
+              "children": [
+                { "segments": [{ "text": "content script와 Shadow DOM 기반 오버레이로 페이지 스타일과 격리된 캡처 UI 구성" }] },
+                { "segments": [{ "text": "마우스 이동에 따라 DOM 요소를 하이라이트하고, 요소 선택/사용자 지정 영역 드래그/리사이즈/이동 flow 구현" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "브라우저 캡처 API 기반 이미지 생성 flow 구현" }],
+              "children": [
+                { "segments": [{ "text": "visible viewport, full-page, viewport 밖으로 확장된 선택 영역 캡처를 scroll stitching 방식으로 처리" }] },
+                { "segments": [{ "text": "Copy/Save 액션을 Clipboard API와 Downloads API에 연결해 결과 PNG를 클립보드 또는 파일로 제공" }] },
+                { "segments": [{ "text": "activeTab, scripting 중심의 Manifest V3 권한만 사용하고 broad host permission, 서버 업로드, telemetry 없이 로컬 브라우저 안에서 이미지를 처리" }] }
+              ]
+            }
+          ],
+          "links": [
+            { "label": "Chrome Web Store", "href": "https://chromewebstore.google.com/detail/crop/pdmniipgbjdcpnhbkkppodechbehagki" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contributing",
+      "title": "Contributing",
+      "entries": [
+        {
+          "id": "rhwp",
+          "title": "rhwp",
+          "role": "Collaborator",
+          "period": "2026.04.16 - now",
+          "url": "https://github.com/postmelee/rhwp",
+          "description": "Rust + WebAssembly 기반 HWP/HWPX viewer/editor 오픈소스 프로젝트에 Collaborator 권한으로 참여하고 있습니다.",
+          "stacks": ["Rust", "WebAssembly", "Canvas", "HWP", "HWPX"],
+          "bullets": [
+            {
+              "segments": [{ "text": "HWP/HWPX 오픈소스 문서 생태계 기여" }],
+              "children": [
+                { "segments": [{ "text": "HWP/HWPX parser, renderer, editor, hwpctl compatibility를 포함하는 Rust/WASM 기반 문서 엔진 프로젝트에 Collaborator 권한으로 참여" }] },
+                { "segments": [{ "text": "alhangeul-macos에서 upstream rhwp core와 studio release를 추적하며 macOS 앱 통합과 렌더링 검증 흐름에 연결" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "닫힌 문서 포맷을 웹과 네이티브 앱에서 다루기 위한 구조 이해" }],
+              "children": [
+                { "segments": [{ "text": "HWP/HWPX 파싱, Canvas/WebAssembly 렌더링, 웹 에디터, SVG export 등 문서 처리 파이프라인을 기반으로 제품 연동 방향을 설계" }] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "personal-projects",
+      "title": "Personal Projects",
+      "entries": [
+        {
+          "id": "knu-lib",
+          "title": "knu_lib",
+          "role": "Personal Project",
+          "status": "maintaining",
+          "period": "2026.03.16 - now",
+          "url": "https://github.com/postmelee/knu_lib",
+          "description": "공식 강남대학교 도서관 Android 앱을 분석·디컴파일해 핵심 UX와 데이터 흐름을 Expo 기반 모바일 앱으로 재구축 중인 프로젝트입니다.",
+          "stacks": ["Expo", "React Native", "TypeScript", "Expo Router", "React Query", "Axios", "Cheerio", "SecureStore"],
+          "bullets": [
+            {
+              "segments": [{ "text": "공식 Android 앱 디컴파일 기반으로 폐쇄적인 도서관 앱 flow를 재구성" }],
+              "children": [
+                { "segments": [{ "text": "공식 학교 도서관 앱을 디컴파일해 로그인, 대출 정보, 상세 화면 등 사용자 flow와 네트워크 연동 방식을 역추적" }] },
+                { "segments": [{ "text": "분석한 화면 구조와 API 응답 형태를 기준으로 Expo Router 기반 탭 구조, 로그인 화면, 대출 상세 화면을 재구성" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "HTML/비정형 응답을 모바일 앱 상태로 바꾸는 데이터 계층 구성" }],
+              "children": [
+                { "segments": [{ "text": "서버 응답이 HTML에 가까운 경우 Cheerio 기반 파싱 계층을 두어 React Native 화면에서 다루기 쉬운 데이터 형태로 변환" }] },
+                { "segments": [{ "text": "React Query와 Axios로 도서관 데이터 요청/캐싱/상태 갱신 흐름을 구성하고, SecureStore로 민감한 세션 정보를 관리" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "Expo 기반 네이티브 기능과 앱 구조 실험" }],
+              "children": [
+                { "segments": [{ "text": "Expo Router, app.json/eas 설정, native module 디렉터리, patch-package를 함께 운영하며 디컴파일 분석 결과를 실제 앱 구조로 옮기는 과정을 유지보수" }] }
+              ]
+            }
+          ],
+          "links": [
+            { "label": "강남대학교 2026-1학기 컴퓨터공학부 학술제 최우수상", "href": "https://sae.kangnam.ac.kr/menu/board/info/e38fb5074d558dd5c570c62c9f36fdce.do?scrtWrtiYn=false&encMenuSeq=48dc6102478453cce8f11c85f0b65427&encMenuBoardSeq=fd8377a25894712a5f67b2c2c641d190" },
+            { "label": "발표자료(ppt)", "href": "https://drive.google.com/file/d/1z0bTvOHb60WvC7uWWzvNGVFeYg-2P4OF/view?usp=sharing" },
+            { "label": "발표자료(pptx)", "href": "https://drive.google.com/file/d/1iBG6Jp-WzRagScLLcpjCrtKvhEtJ5mSd/view" },
+            { "label": "작품보고서(docx)", "href": "https://docs.google.com/document/d/1ngldWT3O5-dTSYh5pDkwM5MOJ4kjkcS8/edit?usp=sharing&ouid=112350065540225109373&rtpof=true&sd=true" },
+            { "label": "시연영상", "href": "https://drive.google.com/file/d/1DkCBhzSbrIftEzOoq-d_8RH60zzHxuKh/view" }
+          ],
+          "awards": [
+            { "label": "2026-1학기 컴퓨터공학부 학술제 최우수상", "href": "https://melee.notion.site/2026-1-3a650c6ce95645f39e43c3fb3c928f96?source=copy_link" }
+          ]
+        },
+        {
+          "id": "mule-reels",
+          "title": "MuleReels",
+          "role": "Personal Project",
+          "period": "2025.10.09",
+          "url": "https://github.com/postmelee/MuleReels",
+          "description": "Mule 악기장터 매물을 Reels 형식으로 탐색할 수 있게 만든 Expo 기반 모바일 앱입니다.",
+          "stacks": ["Expo", "React Native", "TypeScript", "Expo Router", "Reanimated", "Gesture Handler", "Cheerio", "Expo Image"],
+          "bullets": [
+            {
+              "segments": [{ "text": "중고 악기장터의 목록형 탐색을 Reels형 세로 피드 UX로 재해석" }],
+              "children": [
+                { "segments": [{ "text": "Mule 악기장터 매물 정보를 모바일 카드/피드 UI로 보여주고, 짧은 탐색에 맞는 swipe 기반 소비 경험으로 변환" }] },
+                { "segments": [{ "text": "Reanimated와 Gesture Handler 기반으로 세로 피드 전환, 이미지 중심 카드, 빠른 탐색 flow를 구성" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "외부 웹 데이터 파싱과 모바일 앱 flow 연결" }],
+              "children": [
+                { "segments": [{ "text": "Cheerio 기반 파싱으로 외부 매물 데이터를 앱 화면에 맞는 구조로 변환하고, Expo Image/Clipboard/Haptics 등 모바일 기능과 연결" }] },
+                { "segments": [{ "text": "Expo Router 기반으로 목록, 상세, 공유 흐름을 분리해 크롤링 데이터와 네이티브 앱 UI 사이의 결합도를 낮춤" }] }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "swanwoo-pedal",
+          "title": "Swanwoo Pedals",
+          "role": "Personal Project",
+          "period": "2025.10.02",
+          "url": "https://github.com/postmelee/swanwoo_pedal",
+          "description": "직접 제작한 기타 이펙터 페달 3D Model 기반 Next.js 브랜드/블로그 웹사이트입니다.",
+          "stacks": ["Next.js", "React", "TypeScript", "Three.js", "React Three Fiber", "Drei", "React Spring", "Tailwind CSS"],
+          "bullets": [
+            {
+              "segments": [{ "text": "직접 제작한 기타 페달을 제품 중심 3D 웹 경험으로 표현" }],
+              "children": [
+                { "segments": [{ "text": "Three.js, React Three Fiber, Drei, React Spring을 활용해 제품 분위기를 전달하는 3D/모션 요소 구현" }] },
+                { "segments": [{ "text": "브랜드 소개와 블로그 콘텐츠가 3D 장면을 방해하지 않도록 Next.js App Router 기반 페이지 구조와 Tailwind CSS 레이아웃을 구성" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "정적 배포와 유지보수에 적합한 프론트엔드 구조 구성" }],
+              "children": [
+                { "segments": [{ "text": "Next.js 15와 React 19 기반으로 콘텐츠 중심 사이트를 구성하고 Vercel 배포 흐름에 맞춘 프로젝트 구조 정리" }] }
+              ]
+            }
+          ],
+          "links": [
+            { "label": "Website", "href": "https://swanwoopedals.vercel.app" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team-projects",
+      "title": "Team Project",
+      "entries": [
+        {
+          "id": "notifyi",
+          "title": "NotiFYI (이걸안봐)",
+          "role": "Backend / React Native Frontend",
+          "period": "2025.01.10 - 2025.01.11",
+          "url": "https://github.com/KangnengThonOilAndStone/NotiFYI_iOS",
+          "description": "강남대학교 홈페이지 공지사항을 AI로 요약하고, 학과·학년·관심 키워드 기반 개인 맞춤 추천과 챗봇 검색을 제공하는 iOS 공지 앱입니다.",
+          "stacks": ["Swift", "UIKit", "WKWebView", "SnapKit", "Then", "Tabman", "Pageboy", "FastAPI", "LangChain", "FAISS", "RAG Chat API", "Expo", "React Native", "TypeScript", "Expo Router", "React Native Web", "Netlify"],
+          "highlightedStacks": ["Expo", "React Native", "TypeScript", "Expo Router", "React Native Web"],
+          "bullets": [
+            {
+              "segments": [{ "text": "시간 제약 속 팀 병목을 React Native 기반 Frontend 구현으로 해결" }],
+              "children": [
+                { "segments": [{ "text": "초기에는 Backend를 담당했지만, iOS Frontend 담당자가 1명인 상황에서 제한된 시간 안에 모든 핵심 화면과 인터랙션을 네이티브로 구현하기 어렵다는 한계를 발견" }] },
+                { "segments": [{ "text": "Expo로 빠르게 구현해 WebView로 탑재하는 방식이 제출 일정 안에 가장 현실적이라고 판단해, iOS 개발자에게 OnBoardingViewController와 ChattingViewController에서 Expo Web 화면을 WKWebView로 로드하는 구조를 제안하고 해당 화면 구현을 진행" }] },
+                { "segments": [{ "text": "그 결과 Swift 네이티브 구현 범위를 공지 목록과 맞춤 공지 화면에 집중시키고, React Native/Expo WebView 영역으로 사용자 조건 입력과 챗봇 검색 경험을 빠르게 보강해 제출 가능한 완성도를 확보" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "키워드 선택 퍼널 전체 구현" }],
+              "children": [
+                { "segments": [{ "text": "대학, 학과, 학년 선택 화면을 단일 선택 카드 UI로 구성하고 선택값이 없으면 다음 단계로 이동하지 못하도록 CTA disabled 상태를 처리" }] },
+                { "segments": [{ "text": "관심사 선택 화면에서 행사, 대회, 취업, 동아리, 장학, 특강 중 최대 3개 선택 제한, 선택/해제 토글, 선택 개수 표시, 초과 선택 방지 로직을 구현" }] },
+                { "segments": [{ "text": "SafeAreaView, TouchableOpacity, react-native-shadow-2, Pretendard font를 사용해 해커톤 시연에 필요한 카드형 모바일 UI를 일관된 스타일로 구성" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "AI와 채팅을 통한 공지 검색 Frontend 구현" }],
+              "children": [
+                { "segments": [{ "text": "사용자 입력을 즉시 내 메시지로 추가하고, 응답 대기 중에는 '. . .' placeholder를 보여준 뒤 Backend 응답으로 교체하는 채팅 상태 흐름 구현" }] },
+                { "segments": [{ "text": "FastAPI 서버의 /chat API에 user_input을 POST로 전달하고, JSON 응답의 response 값을 AI 말풍선으로 렌더링하는 검색 경험 구성" }] },
+                { "segments": [{ "text": "LayoutAnimation, ScrollView, KeyboardAvoidingView, TextInput을 조합해 입력, 전송, 로딩, 실패 메시지까지 포함한 모바일 채팅 UI를 구현" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "WebView 환경에 맞춘 Expo 화면 라우팅 및 모바일 UX 구성" }],
+              "children": [
+                { "segments": [{ "text": "iOS에서 온보딩 URL과 /chat URL을 각각 WKWebView로 직접 로드할 수 있도록 Expo Router 기반 화면을 독립 라우트로 구성" }]}
+                ]
+            }
+          ],  
+          "links": [
+            { "label": "강냉톤 홈페이지", "href": "https://kangnengthon.site" },
+            { "label": "프로젝트 GitHub", "href": "https://github.com/KangnengThonOilAndStone" },
+            { "label": "구현 코드", "href": "https://github.com/KangnengThonOilAndStone/NotiFYI_Web" }
+          ],
+          "awards": [
+            { "label": "제1회 강냉톤 우수상", "href": "https://melee.notion.site/1-3829a1d61567801d88cee4da8e5fb1db" }
+          ]
+        }
+      ]
+    }
+  ]
+}
