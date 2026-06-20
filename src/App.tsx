@@ -36,6 +36,14 @@ const contactIconByLabel = new Map<string, IconComponent>([
 
 const workSection = projectSections.find((section) => section.id === 'experience')
 const portfolioProjectSections = projectSections.filter((section) => section.id !== 'experience')
+const pageEndTolerance = 2
+
+function readMaxScrollTop() {
+  const root = document.documentElement
+  const scrollHeight = Math.max(root.scrollHeight, document.body?.scrollHeight ?? 0)
+
+  return Math.max(0, scrollHeight - window.innerHeight)
+}
 
 function App() {
   useLayoutEffect(() => {
@@ -79,6 +87,12 @@ function App() {
       const element = document.getElementById(hash.slice(1))
       if (!element) {
         return false
+      }
+
+      if (hash === '#contact') {
+        scrollToPosition(readMaxScrollTop(), behavior)
+        requestActiveSectionSync()
+        return true
       }
 
       const top = element.getBoundingClientRect().top + window.scrollY
@@ -420,7 +434,6 @@ function EmailCopyButton({
 }
 
 function FooterContactSection() {
-  const sectionRef = useRef<HTMLElement | null>(null)
   const [isBackToTopVisible, setIsBackToTopVisible] = useState(false)
   const emailLink = contactLinks.find((link) => link.href.startsWith('mailto:'))
   const emailAddress = emailLink?.href.replace('mailto:', '')
@@ -430,32 +443,35 @@ function FooterContactSection() {
   ].filter(Boolean).join(' ')
 
   useEffect(() => {
-    const section = sectionRef.current
+    let frame = 0
 
-    if (!section) {
-      return
+    function readBackToTopVisibility() {
+      frame = 0
+      const distanceToPageEnd = readMaxScrollTop() - window.scrollY
+      setIsBackToTopVisible(distanceToPageEnd <= pageEndTolerance)
     }
 
-    if (!('IntersectionObserver' in window)) {
-      setIsBackToTopVisible(true)
-      return
+    function scheduleRead() {
+      if (frame === 0) {
+        frame = window.requestAnimationFrame(readBackToTopVisibility)
+      }
     }
 
-    const observer = new IntersectionObserver((entries) => {
-      const [entry] = entries
-      setIsBackToTopVisible(Boolean(entry?.isIntersecting))
-    }, { threshold: 0.16 })
-
-    observer.observe(section)
+    readBackToTopVisibility()
+    window.addEventListener('scroll', scheduleRead, { passive: true })
+    window.addEventListener('resize', scheduleRead)
 
     return () => {
-      observer.disconnect()
+      window.removeEventListener('scroll', scheduleRead)
+      window.removeEventListener('resize', scheduleRead)
+      if (frame !== 0) {
+        window.cancelAnimationFrame(frame)
+      }
     }
   }, [])
 
   return (
     <section
-      ref={sectionRef}
       className="footer-contact-section"
       id="contact"
       aria-labelledby="footer-contact-title"
