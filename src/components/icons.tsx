@@ -39,7 +39,9 @@ export function LiquidPortfolioIcon({
   strokeWidth: _strokeWidth,
   ...props
 }: SVGProps<SVGSVGElement> & { strokeWidth?: number }) {
-  const clipPathId = `${useId().replace(/:/g, '')}-liquid-portfolio-icon-clip`
+  const id = useId().replace(/:/g, '')
+  const clipPathId = `${id}-liquid-portfolio-icon-clip`
+  const radialGradientId = `${id}-liquid-portfolio-icon-glow`
 
   return (
     <svg
@@ -52,6 +54,18 @@ export function LiquidPortfolioIcon({
         <clipPath id={clipPathId}>
           <circle cx="8" cy="8" r="7.35" />
         </clipPath>
+        <radialGradient
+          id={radialGradientId}
+          cx="0"
+          cy="0"
+          r="1"
+          gradientTransform="translate(5.4 3.6) rotate(58) scale(8.6 6.4)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FFFFFF" stopOpacity="0.9" />
+          <stop offset="0.42" stopColor="#DFF7FF" stopOpacity="0.34" />
+          <stop offset="1" stopColor="#63D8FF" stopOpacity="0" />
+        </radialGradient>
       </defs>
       <image
         clipPath={`url(#${clipPathId})`}
@@ -61,12 +75,49 @@ export function LiquidPortfolioIcon({
         width="16"
       />
       <circle
+        clipPath={`url(#${clipPathId})`}
+        cx="8"
+        cy="8"
+        fill={`url(#${radialGradientId})`}
+        r="7.35"
+      />
+      <path
+        d="M3.25 5.75C4.35 3.5 6.65 2.42 9.15 2.58C10.72 2.68 12.18 3.24 13.18 4.28"
+        stroke="#FFFFFF"
+        strokeLinecap="round"
+        strokeOpacity="0.88"
+        strokeWidth="0.75"
+      />
+      <path
+        d="M3.62 11.3C5.36 12.52 8.6 12.77 11.86 10.96"
+        stroke="#0066CC"
+        strokeLinecap="round"
+        strokeOpacity="0.34"
+        strokeWidth="0.64"
+      />
+      <circle
         cx="8"
         cy="8"
         r="7.35"
-        stroke="currentColor"
-        strokeOpacity="0.16"
-        strokeWidth="0.65"
+        stroke="#FFFFFF"
+        strokeOpacity="0.88"
+        strokeWidth="0.8"
+      />
+      <circle
+        cx="8"
+        cy="8"
+        r="6.92"
+        stroke="#0066CC"
+        strokeOpacity="0.28"
+        strokeWidth="0.48"
+      />
+      <circle
+        cx="8"
+        cy="8"
+        r="7.48"
+        stroke="#1D1D1F"
+        strokeOpacity="0.22"
+        strokeWidth="0.42"
       />
     </svg>
   )
