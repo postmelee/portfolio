@@ -420,15 +420,25 @@
               ]
             },
             {
-              "segments": [{ "text": "프로젝트 리소스를 탐색하기 쉬운 인터랙티브 포트폴리오 구조로 연결" }],
+              "segments": [
+                { "text": "WebGPU와 Chrome 실험 기능인 " },
+                { "text": "HTML-in-Canvas", "href": "https://wicg.github.io/html-in-canvas/" },
+                { "text": "를 활용해 Liquid DOM 기반 glass rendering 경로 구성" }
+              ],
               "children": [
-                { "segments": [{ "text": "GitHub, release, product site, project resource 링크를 각 프로젝트 detail 안에서 맥락에 맞게 노출" }] },
-                { "segments": [{ "text": "@liquid-dom/react와 @use-gesture/react를 사용해 glass surface, hover, gesture 기반 인터랙션을 구성" }] }
+                { "segments": [{ "text": "Liquid DOM의 DOM-backed Html content를 WebGPU texture로 복사하는 렌더링 흐름을 사용하고, 지원 환경이 아닐 때 compatibility mode로 portfolio content와 navigation을 유지" }] },
+                { "segments": [
+                  { "text": "@liquid-dom/react", "href": "https://github.com/AndrewPrifer/liquid-dom/tree/master/packages/react" },
+                  { "text": "와 " },
+                  { "text": "@use-gesture/react", "href": "https://github.com/pmndrs/use-gesture/tree/main/packages/react" },
+                  { "text": "를 사용해 glass surface, hover, gesture 기반 인터랙션을 구성" }
+                ] }
               ]
             }
           ],
           "links": [
-            { "label": "GitHub", "href": "https://github.com/postmelee/liquid-portfolio" }
+            { "label": "GitHub", "href": "https://github.com/postmelee/liquid-portfolio" },
+            { "label": "Liquid DOM 요구사항", "href": "https://github.com/AndrewPrifer/liquid-dom#browser-and-runtime-requirements" }
           ]
         },
         {
