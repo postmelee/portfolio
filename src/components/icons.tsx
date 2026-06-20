@@ -60,6 +60,22 @@ export function LiquidPortfolioIcon({
         preserveAspectRatio="xMidYMid slice"
         width="16"
       />
+      <circle
+        cx="8"
+        cy="8"
+        r="7.36"
+        stroke="#FFFFFF"
+        strokeOpacity="0.72"
+        strokeWidth="0.52"
+      />
+      <circle
+        cx="8"
+        cy="8"
+        r="7.58"
+        stroke="#7EA9C5"
+        strokeOpacity="0.24"
+        strokeWidth="0.38"
+      />
     </svg>
   )
 }
