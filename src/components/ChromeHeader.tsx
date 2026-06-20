@@ -9,7 +9,7 @@ import {
 } from 'lucide-react'
 import { contactLinks } from '../data/portfolio'
 import { HeaderContent } from './Header'
-import { GitHubLogo, type IconComponent } from './icons'
+import { GitHubLogo, LiquidPortfolioIcon, type IconComponent } from './icons'
 
 function MoreDotsIcon() {
   return (
@@ -44,6 +44,12 @@ const emailAddress = emailHref?.startsWith('mailto:') ? emailHref.replace('mailt
 const menuItems: MenuItem[] = [
   { Icon: Home, href: '#top', label: '홈으로' },
   ...(emailAddress ? [{ Icon: Copy, label: '이메일 복사', onSelect: 'copyEmail' as const }] : []),
+  {
+    Icon: LiquidPortfolioIcon,
+    external: true,
+    href: contactHrefByLabel.get('Liquid Portfolio'),
+    label: 'Liquid Portfolio',
+  },
   {
     Icon: NotebookPen,
     external: true,

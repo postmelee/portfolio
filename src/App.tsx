@@ -15,7 +15,7 @@ import { SectionToc } from './components/SectionToc'
 import { SimpleEntryList } from './components/SimpleEntryList'
 import { SkillsSection } from './components/SkillsSection'
 import { Text } from './components/Text'
-import { GitHubLogo, type IconComponent } from './components/icons'
+import { GitHubLogo, LiquidPortfolioIcon, type IconComponent } from './components/icons'
 import {
   aboutBullets,
   awards,
@@ -29,6 +29,7 @@ import { ACTIVE_SECTION_SYNC_EVENT } from './useActiveSection'
 
 const contactIconByLabel = new Map<string, IconComponent>([
   ['Email', Mail],
+  ['Liquid Portfolio', LiquidPortfolioIcon],
   ['Github', GitHubLogo],
   ['Blog', NotebookPen],
 ])

@@ -5,7 +5,7 @@ import {
 } from 'lucide-react'
 import profileImage from '../assets/profile-about.jpg'
 import { contactLinks } from '../data/portfolio'
-import { GitHubLogo, type IconComponent } from './icons'
+import { GitHubLogo, LiquidPortfolioIcon, type IconComponent } from './icons'
 
 type HeaderAction = {
   Icon: IconComponent
@@ -24,6 +24,7 @@ type HeaderContentProps = {
 const contactHrefByLabel = new Map(contactLinks.map((link) => [link.label, link.href]))
 
 const headerActionCandidates: HeaderActionCandidate[] = [
+  { Icon: LiquidPortfolioIcon, href: contactHrefByLabel.get('Liquid Portfolio'), label: 'Liquid Portfolio' },
   { Icon: GitHubLogo, href: contactHrefByLabel.get('Github'), label: 'GitHub' },
   { Icon: NotebookPen, href: contactHrefByLabel.get('Blog'), label: 'Blog' },
   { Icon: Mail, href: contactHrefByLabel.get('Email'), label: 'Email' },
