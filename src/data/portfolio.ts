@@ -72,7 +72,7 @@ export const contactLinks: LinkItem[] = [
   { label: 'Email', href: 'mailto:meleeisdeveloping@gmail.com' },
   { label: 'Liquid Portfolio', href: 'https://postmelee.github.io/liquid-portfolio/' },
   { label: 'Github', href: 'https://github.com/postmelee' },
-  { label: 'Blog', href: 'https://postmelee.github.io/' },
+  { label: 'Blog', href: 'https://medium.com/@meleeisdeveloping' },
 ]
 
 export const skills = [
