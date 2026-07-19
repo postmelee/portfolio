@@ -149,6 +149,18 @@ const technologyLinkRules = [
     keywords: ['node js', 'node.js', 'nodejs'],
   },
   {
+    href: 'https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md',
+    keywords: ['codex app server', 'codex app-server'],
+  },
+  {
+    href: 'https://json-schema.org/',
+    keywords: ['json schema'],
+  },
+  {
+    href: 'https://www.npmjs.com/',
+    keywords: ['npm'],
+  },
+  {
     href: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
     keywords: ['html5', 'html'],
   },
@@ -237,7 +249,7 @@ const technologyLinkRules = [
     keywords: ['rust'],
   },
   {
-    href: 'https://github.com/postmelee/rhwp',
+    href: 'https://github.com/edwardkim/rhwp',
     keywords: ['rhwp'],
   },
   {

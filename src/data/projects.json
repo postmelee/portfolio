@@ -3,6 +3,7 @@
     {
       "id": "experience",
       "title": "Work Experience",
+      "websiteOrder": 0,
       "entries": [
         {
           "id": "chika-chika",
@@ -181,10 +182,74 @@
     {
       "id": "projects",
       "title": "Open Source",
+      "websiteOrder": 2,
       "entries": [
+        {
+          "id": "codex-usage-analyzer",
+          "title": "codex-usage-analyzer",
+          "websiteVisible": false,
+          "role": "Maintainer",
+          "status": "maintaining",
+          "period": "2026.06.12 - now",
+          "url": "https://github.com/postmelee/codex-usage-analyzer",
+          "description": "Codex가 제공하는 계정 사용량을 공식 app-server 프로토콜로 읽어 안정적인 JSON 계약과 CLI·SDK로 제공하는 privacy-first 오픈소스 도구입니다.",
+          "stacks": ["JavaScript", "Node.js", "Codex app-server", "JSON Schema", "npm", "GitHub Actions", "Privacy by Design"],
+          "bullets": [
+            {
+              "segments": [{ "text": "공식 app-server 기반의 계정 단위 사용량 계약 설계" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "Codex의 문서화된 " },
+                    { "text": "account/usage/read", "href": "https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md" },
+                    { "text": " 메서드를 호출해 로컬 session 파일 추정 대신 계정 단위 사용량을 조회" }
+                  ]
+                },
+                { "segments": [{ "text": "identity-free Account Usage Contract v1, JSON Schema와 SDK를 제공하고 allowlist·null 의미·오류 코드를 고정해 downstream이 안정적으로 소비할 수 있게 구성" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "인증과 개인 데이터 경계를 제품 기본값으로 분리" }],
+              "children": [
+                { "segments": [{ "text": "인증 파일·token·keychain·prompt·response·로컬 session을 직접 읽지 않고, 설치된 Codex process 안에 인증과 서비스 통신을 위임" }] },
+                { "segments": [{ "text": "identity와 활동 insight를 다루는 profile 및 custom pet 기능은 experimental subpath와 명시적 opt-in으로 격리해 stable root SDK 계약을 유지" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "의존성 없는 npm CLI와 검증 가능한 release pipeline 운영" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "runtime dependency 0을 유지하면서 " },
+                    { "text": "v0.4.1", "href": "https://www.npmjs.com/package/codex-usage-analyzer" },
+                    { "text": "을 배포하고, 178개 regression test와 28-file package artifact로 공개 계약을 검증" }
+                  ]
+                },
+                {
+                  "segments": [
+                    { "text": "GitHub Actions OIDC Trusted Publishing과 release preflight를 구성하고 " },
+                    { "text": "PR #55", "href": "https://github.com/postmelee/codex-usage-analyzer/pull/55" },
+                    { "text": "에서 version surface·package allowlist·stable/experimental 경계를 확인" }
+                  ]
+                },
+                {
+                  "segments": [
+                    { "text": "OpenAI " },
+                    { "text": "Codex for Open Source", "href": "https://developers.openai.com/community/codex-for-oss" },
+                    { "text": " 프로그램의 지원을 받아 유지보수" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "links": [
+            { "label": "npm", "href": "https://www.npmjs.com/package/codex-usage-analyzer" }
+          ]
+        },
         {
           "id": "hyper-waterfall",
           "title": "hyper-waterfall",
+          "websiteOrder": 2,
           "role": "Maintainer",
           "status": "maintaining",
           "period": "2026.05.01 - now",
@@ -192,6 +257,18 @@
           "description": "AI pair programming을 Issue, plan, stage report, PR로 추적 가능한 개발 프로세스에 묶는 방법론 harness입니다.",
           "stacks": ["JavaScript", "Node.js", "Dry-run CLI", "Repository Adoption", "GitHub Issues", "Markdown Templates", "Agent Workflow", "Documentation"],
           "bullets": [
+            {
+              "segments": [{ "text": "공개 배포 후 외부 반응과 fork 기반 adoption 확인" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "GitHub 공개 지표 기준 " },
+                    { "text": "66 stars·12 forks", "href": "https://github.com/postmelee/hyper-waterfall" },
+                    { "text": "를 기록(2026.07.19 기준)" }
+                  ]
+                }
+              ]
+            },
             {
               "segments": [{ "text": "AI pair programming을 작은 task 단위의 승인 가능한 개발 프로세스로 구조화" }],
               "children": [
@@ -243,6 +320,7 @@
         {
           "id": "alhangeul-macos",
           "title": "alhangeul-macos",
+          "websiteOrder": 1,
           "role": "Maintainer",
           "status": "maintaining",
           "period": "2026.04.23 - now",
@@ -255,9 +333,16 @@
               "children": [
                 {
                   "segments": [
-                    { "text": "GitHub Releases 기준 누적 다운로드 " },
-                    { "text": "3,714회", "href": "https://github.com/postmelee/alhangeul-macos/releases" },
-                    { "text": "(2026.06 기준)를 공개적으로 확인 가능한 사용 지표로 추적" }
+                    { "text": "GitHub Releases 기준 DMG 누적 다운로드 " },
+                    { "text": "5,477회", "href": "https://github.com/postmelee/alhangeul-macos/releases" },
+                    { "text": "를 기록(2026.07.19 기준)" }
+                  ]
+                },
+                {
+                  "segments": [
+                    { "text": "GitHub 공개 지표 기준 " },
+                    { "text": "199 stars·18 forks", "href": "https://github.com/postmelee/alhangeul-macos" },
+                    { "text": "를 기록(2026.07.19 기준)" }
                   ]
                 },
                 {
@@ -310,6 +395,27 @@
                 },
                 { "segments": [{ "text": "웹페이지 릴리즈 기준과 upstream 갱신 지침을 문서화해 AI가 변경 범위, 검증 항목, 배포 문구를 일관되게 처리하도록 설계" }] }
               ]
+            },
+            {
+              "segments": [{ "text": "downstream 제품 검증을 upstream 회귀 수정과 공개 릴리스로 연결" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "rhwp v0.7.19 동기화 후보의 CI는 통과했지만 custom scheme WKWebView Host RPC가 중단되는 회귀를 실제 앱에서 발견하고 " },
+                    { "text": "알한글 PR #423", "href": "https://github.com/postmelee/alhangeul-macos/pull/423" },
+                    { "text": "에서 v0.7.18 복원과 재현 범위를 확정" }
+                  ]
+                },
+                {
+                  "segments": [
+                    { "text": "upstream " },
+                    { "text": "rhwp PR #2398", "href": "https://github.com/edwardkim/rhwp/pull/2398" },
+                    { "text": "로 iframe 보안 경계를 유지하면서 custom scheme 호환성을 복구하고, signed/notarized " },
+                    { "text": "v0.1.8", "href": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.8" },
+                    { "text": " 공개 및 실제 Sparkle 업데이트까지 검증" }
+                  ]
+                }
+              ]
             }
           ],
           "links": [
@@ -319,6 +425,7 @@
         {
           "id": "crop",
           "title": "crop",
+          "websiteOrder": 3,
           "role": "Maintainer",
           "status": "maintaining",
           "period": "2026.05.24 - now",
@@ -371,27 +478,82 @@
     {
       "id": "contributing",
       "title": "Contributing",
+      "websiteOrder": 1,
       "entries": [
         {
           "id": "rhwp",
           "title": "rhwp",
           "role": "Collaborator",
           "period": "2026.04.16 - now",
-          "url": "https://github.com/postmelee/rhwp",
-          "description": "Rust + WebAssembly 기반 HWP/HWPX viewer/editor 오픈소스 프로젝트에 Collaborator 권한으로 참여하고 있습니다.",
-          "stacks": ["Rust", "WebAssembly", "Canvas", "HWP", "HWPX"],
+          "url": "https://github.com/edwardkim/rhwp",
+          "description": "Rust + WebAssembly 기반 HWP/HWPX viewer/editor 오픈소스 프로젝트에서 Collaborator로 활동하며 프론트 아키텍처·품질 게이트·제품 통합을 개선하고 있습니다.",
+          "stacks": ["Rust", "TypeScript", "WebAssembly", "Canvas", "Vitest", "GitHub Actions", "HWP", "HWPX"],
           "bullets": [
             {
-              "segments": [{ "text": "HWP/HWPX 오픈소스 문서 생태계 기여" }],
+              "segments": [{ "text": "대규모 HWP/HWPX 오픈소스 프로젝트의 Collaborator로 기여" }],
               "children": [
-                { "segments": [{ "text": "HWP/HWPX parser, renderer, editor, hwpctl compatibility를 포함하는 Rust/WASM 기반 문서 엔진 프로젝트에 Collaborator 권한으로 참여" }] },
-                { "segments": [{ "text": "alhangeul-macos에서 upstream rhwp core와 studio release를 추적하며 macOS 앱 통합과 렌더링 검증 흐름에 연결" }] }
+                {
+                  "segments": [
+                    { "text": "GitHub 공개 지표 3.6k stars·627 forks 규모이며, 메인테이너 누적 집계 기준 clone " },
+                    { "text": "100k+", "href": "https://github.com/edwardkim/rhwp" },
+                    { "text": "를 기록(2026.07.19 기준)" }
+                  ]
+                },
+                { "segments": [{ "text": "HWP/HWPX parser·renderer·editor와 browser extension, VS Code, npm embed를 포함하는 Rust/WASM 문서 생태계의 구현·리뷰·릴리스 흐름에 참여" }] }
               ]
             },
             {
-              "segments": [{ "text": "닫힌 문서 포맷을 웹과 네이티브 앱에서 다루기 위한 구조 이해" }],
+              "segments": [
+                { "text": "프론트 웹 구조·공개 계약·복잡도 리팩터링을 " },
+                { "text": "umbrella 이슈 #2022", "href": "https://github.com/edwardkim/rhwp/issues/2022" },
+                { "text": "로 주도" }
+              ],
               "children": [
-                { "segments": [{ "text": "HWP/HWPX 파싱, Canvas/WebAssembly 렌더링, 웹 에디터, SVG export 등 문서 처리 파이프라인을 기반으로 제품 연동 방향을 설계" }] }
+                {
+                  "segments": [
+                    { "text": "Studio, Chrome·Firefox·Safari, VS Code webview, @rhwp/core·@rhwp/editor를 하나의 리팩터링 트랙으로 묶고 " },
+                    { "text": "PR #2174", "href": "https://github.com/edwardkim/rhwp/pull/2174" },
+                    { "text": "에서 203개 제품 파일·67,155 code lines·4,728개 함수의 baseline과 공개 계약·보안·폰트 inventory를 고정" }
+                  ]
+                },
+                {
+                  "segments": [
+                    { "text": "PR #2216", "href": "https://github.com/edwardkim/rhwp/pull/2216" },
+                    { "text": "에서 clean runner의 fresh WASM부터 Studio·확장·VS Code까지 실제 build/test를 required check에 연결해 Rust CI만 통과하는 false green을 차단" }
+                  ]
+                },
+                {
+                  "segments": [
+                    { "text": "PR #2254", "href": "https://github.com/edwardkim/rhwp/pull/2254" },
+                    { "text": "로 36개 WOFF2의 canonical ownership을 5개 소비자에 정립하고, " },
+                    { "text": "PR #2316", "href": "https://github.com/edwardkim/rhwp/pull/2316" },
+                    { "text": "으로 production에서 사용하지 않던 legacy /web 18개 항목과 16,126 lines를 제거" }
+                  ]
+                }
+              ]
+            },
+            {
+              "segments": [{ "text": "정량 지표와 회귀 계약을 기준으로 고복잡도 UI 파이프라인 해체" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "PR #2397", "href": "https://github.com/edwardkim/rhwp/pull/2397" },
+                    { "text": "에서 PicturePropsDialog의 form 수집·patch 계산·target 판정·WASM mutation·undo 책임을 pure model과 orchestration으로 분리" }
+                  ]
+                },
+                { "segments": [{ "text": "handleOk CC 348→2, LOC 381→11, 대상 dialog/model Total CC 647→371, 전체 Total CC -276을 달성하고 Studio 390개 test와 Chrome undo 계약으로 검증" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "실사용 대용량 문서에서 편집 정확성과 상호작용 성능 개선" }],
+              "children": [
+                {
+                  "segments": [
+                    { "text": "PR #2401", "href": "https://github.com/edwardkim/rhwp/pull/2401" },
+                    { "text": "에서 115쪽 거대 셀 드래그가 매 frame 전체 page tree를 재구축하던 병목을 endpoint page range와 cache-aware fallback으로 제한" }
+                  ]
+                },
+                { "segments": [{ "text": "실제 Chrome HWP/HWPX 검증에서 drag callback p95 최대 3.4ms, warm long task 0건, 선택 중 pagination·전체 Canvas refresh 0회를 기록" }] }
               ]
             }
           ]
@@ -401,6 +563,7 @@
     {
       "id": "personal-projects",
       "title": "Personal Projects",
+      "websiteOrder": 3,
       "entries": [
         {
           "id": "liquid-portfolio",
@@ -540,6 +703,7 @@
     {
       "id": "team-projects",
       "title": "Team Project",
+      "websiteOrder": 4,
       "entries": [
         {
           "id": "notifyi",
