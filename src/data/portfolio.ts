@@ -16,6 +16,8 @@ export type LinkItem = {
 export type TimelineEntry = {
   id: string
   title: string
+  websiteVisible?: boolean
+  websiteOrder?: number
   role?: string
   period?: string
   status?: 'maintaining'
@@ -314,6 +316,24 @@ export const personalProjects: TimelineEntry[] = [
 ]
 
 export const awards: SimpleEntry[] = [
+  {
+    id: 'openai-codex-for-open-source-2026',
+    title: 'OpenAI Codex for Open Source — Selected Maintainer',
+    period: '2026.07',
+    links: [
+      { label: '프로그램 안내', href: 'https://developers.openai.com/community/codex-for-oss' },
+      { label: 'GitHub 프로필', href: 'https://github.com/postmelee' },
+    ],
+    bullets: [
+      {
+        segments: [{ text: '공개 오픈소스 유지보수 활동을 기반으로 OpenAI Codex for Open Source 프로그램의 Selected Maintainer로 선정' }],
+        children: [
+          { segments: [{ text: 'Codex를 활용한 오픈소스 triage, 구현, 코드 리뷰, 보안 검토와 릴리스 workflow를 실제 프로젝트에서 지속적으로 운영' }] },
+          { segments: [{ text: '지원은 maintainer 활동을 위한 프로그램 참여이며 OpenAI의 개별 프로젝트 보증·승인을 의미하지 않음' }] },
+        ],
+      },
+    ],
+  },
   {
     id: 'computer-engineering-academic-festival-2026-grand-prize',
     title: '2026-1학기 컴퓨터공학부 학술제 최우수상',
