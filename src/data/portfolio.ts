@@ -63,7 +63,7 @@ export const aboutBullets: BulletItem[] = [
   },
   {
     segments: [
-      { text: '아이디어에 머무르지 않고 직접 구현하며, 개인 프로젝트를 통해 문제를 제품으로 검증합니다.' },
+      { text: '아이디어를 제품으로 직접 검증하고, AI 협업 과정은 문서·검증·승인 가능한 프로젝트 기억으로 남깁니다.' },
     ],
   },
 ]
@@ -72,25 +72,30 @@ export const contactLinks: LinkItem[] = [
   { label: 'Email', href: 'mailto:meleeisdeveloping@gmail.com' },
   { label: 'Liquid Portfolio', href: 'https://postmelee.github.io/liquid-portfolio/' },
   { label: 'Github', href: 'https://github.com/postmelee' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/postmelee/' },
   { label: 'Blog', href: 'https://medium.com/@meleeisdeveloping' },
 ]
 
 export const skills = [
   {
     title: 'Frontend',
-    items: ['HTML5', 'CSS3(SCSS)', 'JS(ES6)', 'React', 'Next.js', 'Typescript', 'Redux(React-redux)', 'Styled Component', 'Tailwind'],
+    items: ['TypeScript', 'JavaScript', 'React', 'Next.js', 'Vite', 'Redux', 'TanStack Query', 'Tailwind'],
   },
   {
-    title: 'Cross-Platform',
-    items: ['React-native', 'Expo', 'React-navigation', 'React-native-reanimated', 'React-native-shared-element'],
+    title: 'Cross-Platform & macOS',
+    items: ['React Native', 'Expo', 'Swift', 'SwiftUI', 'AppKit', 'WKWebView', 'Quick Look'],
   },
   {
-    title: 'Tools',
-    items: ['Slack', 'Notion', 'Figma', 'Git', 'GitBook'],
+    title: 'Systems & Backend',
+    items: ['Rust', 'WebAssembly', 'Node.js', 'PostgreSQL', 'Socket.IO', 'AWS S3'],
   },
   {
-    title: 'Others',
-    items: ['AWS EC2', 'S3', 'CloudFront', 'Firebase(Cloud Messaging)'],
+    title: 'Quality & Delivery',
+    items: ['Vitest', 'Playwright', 'Visual Diff', 'GitHub Actions', 'Sparkle', 'DMG Notarization'],
+  },
+  {
+    title: 'Product & Collaboration',
+    items: ['Figma', 'Git', 'Notion', 'GitBook'],
   },
 ]
 

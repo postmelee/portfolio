@@ -15,7 +15,12 @@ import { SectionToc } from './components/SectionToc'
 import { SimpleEntryList } from './components/SimpleEntryList'
 import { SkillsSection } from './components/SkillsSection'
 import { Text } from './components/Text'
-import { GitHubLogo, LiquidPortfolioIcon, type IconComponent } from './components/icons'
+import {
+  GitHubLogo,
+  LinkedInLogo,
+  LiquidPortfolioIcon,
+  type IconComponent,
+} from './components/icons'
 import {
   aboutBullets,
   awards,
@@ -31,6 +36,7 @@ const contactIconByLabel = new Map<string, IconComponent>([
   ['Email', Mail],
   ['Liquid Portfolio', LiquidPortfolioIcon],
   ['Github', GitHubLogo],
+  ['LinkedIn', LinkedInLogo],
   ['Blog', NotebookPen],
 ])
 

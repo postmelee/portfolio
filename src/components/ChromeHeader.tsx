@@ -9,7 +9,12 @@ import {
 } from 'lucide-react'
 import { contactLinks } from '../data/portfolio'
 import { HeaderContent } from './Header'
-import { GitHubLogo, LiquidPortfolioIcon, type IconComponent } from './icons'
+import {
+  GitHubLogo,
+  LinkedInLogo,
+  LiquidPortfolioIcon,
+  type IconComponent,
+} from './icons'
 
 function MoreDotsIcon() {
   return (
@@ -61,6 +66,12 @@ const menuItems: MenuItem[] = [
     external: true,
     href: contactHrefByLabel.get('Github'),
     label: 'GitHub',
+  },
+  {
+    Icon: LinkedInLogo,
+    external: true,
+    href: contactHrefByLabel.get('LinkedIn'),
+    label: 'LinkedIn',
   },
   {
     Icon: Mail,

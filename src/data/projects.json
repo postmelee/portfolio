@@ -247,9 +247,47 @@
           ]
         },
         {
+          "id": "codex-usage-profile",
+          "title": "Codex Usage Profile",
+          "websiteOrder": 2,
+          "role": "Maintainer",
+          "status": "maintaining",
+          "period": "2026.07.28 - now",
+          "url": "https://github.com/postmelee/codex-usage-profile",
+          "description": "Codex 계정 사용량을 private-by-default 프로필과 안정적인 GitHub README 카드로 발행·공유할 수 있게 만든 오픈소스 웹 서비스와 CLI입니다.",
+          "stacks": ["React", "Vite", "Node.js", "PostgreSQL", "GitHub OAuth", "SVG/PNG Rendering", "npm CLI", "Playwright", "Privacy by Design"],
+          "bullets": [
+            {
+              "segments": [{ "text": "사용자가 공개 범위를 통제하는 usage profile 제품 설계" }],
+              "children": [
+                { "segments": [{ "text": "GitHub OAuth로 프로필 소유권을 확인하고, 새 프로필은 비공개로 시작해 사용자가 명시적으로 공개한 카드만 외부에서 접근 가능하도록 구성" }] },
+                { "segments": [{ "text": "Codex/OpenAI 비밀번호·API key·access token·prompt·response·session file을 업로드하지 않고, 공개 카드에 필요한 집계 usage만 전송하는 credential boundary 설계" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "README와 소셜 공유에 맞는 안정적인 카드 배포 계약 구현" }],
+              "children": [
+                { "segments": [{ "text": "재제출이나 테마 변경 뒤에도 같은 queryless PNG URL이 최신 공개 카드를 가리키게 해 GitHub README의 Markdown을 반복 수정하지 않도록 구성" }] },
+                { "segments": [{ "text": "LinkedIn·X·Threads 등 소셜 플랫폼의 preview cache를 고려해 새 게시물에는 revision URL을 제공하고, 카드에는 light/dark와 한국어/영어 설정을 지원" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "CLI 제출부터 full-stack 카드 렌더링까지 운영 가능한 제품으로 연결" }],
+              "children": [
+                { "segments": [{ "text": "npx codex-usage-profile@latest submit 명령으로 로컬 Codex usage를 읽고 browser approval을 거쳐 자신의 프로필에만 제출하는 flow 구현" }] },
+                { "segments": [{ "text": "React·Vite UI, Node.js runtime, PostgreSQL 저장소, SVG/PNG 렌더링과 Playwright E2E를 하나의 공개 서비스와 npm CLI release pipeline으로 운영" }] }
+              ]
+            }
+          ],
+          "links": [
+            { "label": "Product", "href": "https://codex-usage-profile.meleeisdeveloping.chatgpt.site" },
+            { "label": "npm", "href": "https://www.npmjs.com/package/codex-usage-profile" }
+          ]
+        },
+        {
           "id": "hyper-waterfall",
           "title": "hyper-waterfall",
-          "websiteOrder": 2,
+          "websiteOrder": 3,
           "role": "Maintainer",
           "status": "maintaining",
           "period": "2026.05.01 - now",
@@ -263,8 +301,8 @@
                 {
                   "segments": [
                     { "text": "GitHub 공개 지표 기준 " },
-                    { "text": "66 stars·12 forks", "href": "https://github.com/postmelee/hyper-waterfall" },
-                    { "text": "를 기록(2026.07.19 기준)" }
+                    { "text": "78 stars·15 forks", "href": "https://github.com/postmelee/hyper-waterfall" },
+                    { "text": "를 기록(2026.09.01 기준)" }
                   ]
                 }
               ]
@@ -334,15 +372,15 @@
                 {
                   "segments": [
                     { "text": "GitHub Releases 기준 DMG 누적 다운로드 " },
-                    { "text": "5,477회", "href": "https://github.com/postmelee/alhangeul-macos/releases" },
-                    { "text": "를 기록(2026.07.19 기준)" }
+                    { "text": "7,549회", "href": "https://github.com/postmelee/alhangeul-macos/releases" },
+                    { "text": "를 기록(2026.09.01 기준)" }
                   ]
                 },
                 {
                   "segments": [
                     { "text": "GitHub 공개 지표 기준 " },
-                    { "text": "199 stars·18 forks", "href": "https://github.com/postmelee/alhangeul-macos" },
-                    { "text": "를 기록(2026.07.19 기준)" }
+                    { "text": "226 stars·19 forks", "href": "https://github.com/postmelee/alhangeul-macos" },
+                    { "text": "를 기록(2026.09.01 기준)" }
                   ]
                 },
                 {
@@ -411,7 +449,7 @@
                     { "text": "upstream " },
                     { "text": "rhwp PR #2398", "href": "https://github.com/edwardkim/rhwp/pull/2398" },
                     { "text": "로 iframe 보안 경계를 유지하면서 custom scheme 호환성을 복구하고, signed/notarized " },
-                    { "text": "v0.1.8", "href": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.8" },
+                    { "text": "v0.1.10", "href": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.10" },
                     { "text": " 공개 및 실제 Sparkle 업데이트까지 검증" }
                   ]
                 }
@@ -425,7 +463,7 @@
         {
           "id": "crop",
           "title": "crop",
-          "websiteOrder": 3,
+          "websiteOrder": 4,
           "role": "Maintainer",
           "status": "maintaining",
           "period": "2026.05.24 - now",
@@ -494,7 +532,7 @@
               "children": [
                 {
                   "segments": [
-                    { "text": "GitHub 공개 지표 3.6k stars·627 forks 규모이며, 메인테이너 누적 집계 기준 clone " },
+                    { "text": "GitHub 공개 지표 3,768 stars·693 forks 규모(2026.09.01 기준)이며, 메인테이너 누적 집계 기준 clone " },
                     { "text": "100k+", "href": "https://github.com/edwardkim/rhwp" },
                     { "text": "를 기록(2026.07.19 기준)" }
                   ]
@@ -565,6 +603,41 @@
       "title": "Personal Projects",
       "websiteOrder": 3,
       "entries": [
+        {
+          "id": "heartrace",
+          "title": "heartrace (심장달리기)",
+          "role": "Game Design / Web·App Developer",
+          "period": "2026.08",
+          "url": "https://heartrace-postmelee.onrender.com/",
+          "description": "스마트폰 카메라로 감지한 실제 심박 한 번을 웹 경기장의 한 걸음으로 변환하는 현장 참여형 실시간 게임입니다.",
+          "stacks": ["TypeScript", "React", "Vite", "Expo", "React Native", "VisionCamera", "Socket.IO", "Camera-based PPG"],
+          "bullets": [
+            {
+              "segments": [{ "text": "카메라 기반 PPG 신호를 게임 입력으로 변환" }],
+              "children": [
+                { "segments": [{ "text": "Expo·React Native·VisionCamera에서 손끝의 미세한 색 변화를 분석해 심박, BPM과 신호 품질을 실시간 판정" }] },
+                { "segments": [{ "text": "원본 카메라 영상은 기기 밖으로 전송하거나 저장하지 않고, 승인된 박동과 경기 진행에 필요한 값만 서버에 전달하도록 개인정보 경계를 설계" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "여러 참가자를 연결하는 실시간 경기 시스템 구현" }],
+              "children": [
+                { "segments": [{ "text": "React·Vite 기반 웹 경기장에서 여러 참가자의 박동을 트랙 위 움직임으로 시각화하고, 방 코드·QR 입장·카운트다운·관전·운영자 제어 flow를 구성" }] },
+                { "segments": [{ "text": "Socket.IO와 서버 권위형 규칙으로 중복·역순·저품질 박동을 걸러내고 재접속, 개인전과 팀 이어달리기·바톤 전환 상태를 일관되게 관리" }] }
+              ]
+            },
+            {
+              "segments": [{ "text": "현장 기획의 은유를 센서·서버·인터페이스로 일관되게 번역" }],
+              "children": [
+                { "segments": [{ "text": "《ㅊㅊㅊ 운동회》의 0km 달리기 세션에서 ‘승인된 실제 박동 한 번 = 한 걸음’이라는 규칙을 중심으로 게임 기획, 웹·앱과 실시간 운영 시스템을 개발" }] },
+                { "segments": [{ "text": "참가자의 심박 차이를 평준화하지 않고 각자의 몸과 감정 변화가 경험의 입력이 되도록 설계해, 경쟁보다 자기 감각과 공동 참여를 강조" }] }
+              ]
+            }
+          ],
+          "links": [
+            { "label": "LinkedIn Story", "href": "https://www.linkedin.com/feed/update/urn:li:activity:7499010790830682112/" }
+          ]
+        },
         {
           "id": "liquid-portfolio",
           "title": "Liquid Portfolio",
