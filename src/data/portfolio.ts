@@ -83,7 +83,7 @@ export const skills = [
   },
   {
     title: 'Cross-Platform & macOS',
-    items: ['React Native', 'Expo', 'Swift', 'SwiftUI', 'AppKit', 'WKWebView', 'Quick Look', 'Spotlight'],
+    items: ['React Native', 'Expo', 'Swift', 'SwiftUI', 'AppKit', 'WKWebView'],
   },
   {
     title: 'Systems & Backend',
@@ -92,10 +92,6 @@ export const skills = [
   {
     title: 'Quality & Delivery',
     items: ['Vitest', 'Playwright', 'Visual Diff', 'GitHub Actions', 'Sparkle', 'DMG Notarization'],
-  },
-  {
-    title: 'Product & Collaboration',
-    items: ['Figma', 'Git', 'Notion', 'GitBook'],
   },
 ]
 
