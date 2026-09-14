@@ -30,7 +30,7 @@ function ProjectResources({
   className?: string
   entry: TimelineEntry
 }) {
-  if (!entry.url && !entry.links && !entry.awards) {
+  if (!entry.url && !entry.links?.length && !entry.awards?.length) {
     return null
   }
 
@@ -39,8 +39,8 @@ function ProjectResources({
       {entry.url ? (
         <ExternalResourceLink className="project-url" href={entry.url} variant="primary" />
       ) : null}
-      {entry.links ? <LinkRail title="Links" links={entry.links} /> : null}
-      {entry.awards ? <LinkRail title="Awards" links={entry.awards} /> : null}
+      {entry.links?.length ? <LinkRail title="Links" links={entry.links} /> : null}
+      {entry.awards?.length ? <LinkRail title="Awards" links={entry.awards} /> : null}
     </div>
   )
 }

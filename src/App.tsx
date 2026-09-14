@@ -181,20 +181,13 @@ function PortfolioDocument() {
           <SkillsSection groups={skills} />
         </section>
 
-        {workSection ? (
-          <section className="timeline-section" id={workSection.id}>
-            <SectionTitle title={workSection.title} />
-            <ProjectList entries={workSection.entries} />
-          </section>
-        ) : null}
-
         <section className="timeline-section projects-section" id="projects">
           <SectionTitle title="Projects" />
           <div className="project-category-list">
             {portfolioProjectSections.map((section) => (
               <section
                 className="project-category"
-                id={section.id === 'projects' ? undefined : section.id}
+                id={section.id}
                 key={section.id}
               >
                 <Text as="h3" variant="markdownH2" className="project-category-title">
@@ -205,6 +198,13 @@ function PortfolioDocument() {
             ))}
           </div>
         </section>
+
+        {workSection ? (
+          <section className="timeline-section" id={workSection.id}>
+            <SectionTitle title={workSection.title} />
+            <ProjectList entries={workSection.entries} />
+          </section>
+        ) : null}
 
         <section className="content-section" id="awards">
           <SectionTitle title="Awards and Honors" />

@@ -1,0 +1,1114 @@
+{
+  "date": "2026-09-14",
+  "timezone": "Asia/Seoul",
+  "notes": [
+    "HTTP 200 does not guarantee public access to SPA content.",
+    "403 and 999 may indicate automated-request restrictions.",
+    "Download counts are observations taken during the audit, not unique users.",
+    "Draft and prerelease assets excluded from DMG total."
+  ],
+  "dmgDownloads": {
+    "repository": "postmelee/alhangeul-macos",
+    "total": 8355,
+    "releases": [
+      {
+        "tag": "v0.2.2",
+        "publishedAt": "2026-09-14T13:18:49Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.2.2",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.2.2.dmg",
+            "downloads": 2
+          }
+        ]
+      },
+      {
+        "tag": "v0.2.0",
+        "publishedAt": "2026-09-12T17:43:58Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.2.0",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.2.0.dmg",
+            "downloads": 151
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.11",
+        "publishedAt": "2026-09-06T17:16:00Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.11",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.11.dmg",
+            "downloads": 498
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.10",
+        "publishedAt": "2026-08-14T15:19:19Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.10",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.10.dmg",
+            "downloads": 968
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.9",
+        "publishedAt": "2026-07-30T16:17:53Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.9",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.9.dmg",
+            "downloads": 649
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.8",
+        "publishedAt": "2026-07-19T03:42:35Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.8",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.8.dmg",
+            "downloads": 577
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.7",
+        "publishedAt": "2026-06-24T21:37:20Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.7",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.7.dmg",
+            "downloads": 1064
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.6",
+        "publishedAt": "2026-06-21T10:26:09Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.6",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.6.dmg",
+            "downloads": 370
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.5",
+        "publishedAt": "2026-06-07T13:31:41Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.5",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.5.dmg",
+            "downloads": 847
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.4",
+        "publishedAt": "2026-05-31T10:36:41Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.4",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.4.dmg",
+            "downloads": 817
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.3",
+        "publishedAt": "2026-05-18T09:11:34Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.3",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.3.dmg",
+            "downloads": 1663
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.2",
+        "publishedAt": "2026-05-13T02:27:53Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.2",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.2.dmg",
+            "downloads": 729
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.1",
+        "publishedAt": "2026-05-10T16:22:39Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.1",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.1.dmg",
+            "downloads": 9
+          }
+        ]
+      },
+      {
+        "tag": "v0.1.0",
+        "publishedAt": "2026-05-08T19:12:21Z",
+        "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.0",
+        "assets": [
+          {
+            "name": "alhangeul-macos-0.1.0.dmg",
+            "downloads": 11
+          }
+        ]
+      }
+    ]
+  },
+  "links": [
+    {
+      "url": "https://aict.snu.ac.kr/?p=81_view&idx=70&page=1#open",
+      "httpStatus": "403",
+      "effectiveUrl": "https://aict.snu.ac.kr/?p=81_view&idx=70&page=1#open",
+      "error": null
+    },
+    {
+      "url": "https://app.notion.com/p/8c3f10e36f1540cd93babce01a5d3a8e",
+      "httpStatus": "200",
+      "effectiveUrl": "https://app.notion.com/p/8c3f10e36f1540cd93babce01a5d3a8e",
+      "error": null
+    },
+    {
+      "url": "https://app.notion.com/p/melee/2021-55c9ee74dc1a484dbd1499ce76ffd2b7?pvs=25",
+      "httpStatus": "200",
+      "effectiveUrl": "https://app.notion.com/p/melee/2021-55c9ee74dc1a484dbd1499ce76ffd2b7?pvs=25",
+      "error": null
+    },
+    {
+      "url": "https://app.notion.com/p/melee/2021-60a27806147e4707a2905afb00de67ad?pvs=25",
+      "httpStatus": "200",
+      "effectiveUrl": "https://app.notion.com/p/melee/2021-60a27806147e4707a2905afb00de67ad?pvs=25",
+      "error": null
+    },
+    {
+      "url": "https://app.notion.com/p/melee/9a0cfbfcc515474da712edb37ba8c3c7?pvs=25",
+      "httpStatus": "200",
+      "effectiveUrl": "https://app.notion.com/p/melee/9a0cfbfcc515474da712edb37ba8c3c7?pvs=25",
+      "error": null
+    },
+    {
+      "url": "https://app.notion.com/p/melee/KVP-5-8c0a807a23f147c499f17a946a1d6806?pvs=25",
+      "httpStatus": "200",
+      "effectiveUrl": "https://app.notion.com/p/melee/KVP-5-8c0a807a23f147c499f17a946a1d6806?pvs=25",
+      "error": null
+    },
+    {
+      "url": "https://apps.apple.com/kr/app/%EC%B9%98%EC%B9%B4%EC%B9%98%EC%B9%B4-%EA%B5%90%EC%A0%95-%EB%A6%AC%EB%B7%B0-%EC%B9%98%EA%B3%BC-%EC%B6%94%EC%B2%9C/id1546445561?l=en",
+      "httpStatus": "404",
+      "effectiveUrl": "https://apps.apple.com/kr/app/%EC%B9%98%EC%B9%B4%EC%B9%98%EC%B9%B4-%EA%B5%90%EC%A0%95-%EB%A6%AC%EB%B7%B0-%EC%B9%98%EA%B3%BC-%EC%B6%94%EC%B2%9C/id1546445561?l=en",
+      "error": null
+    },
+    {
+      "url": "https://cdn.jsdelivr.net",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.jsdelivr.com/",
+      "error": null
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/crop/pdmniipgbjdcpnhbkkppodechbehagki",
+      "httpStatus": "200",
+      "effectiveUrl": "https://chromewebstore.google.com/detail/crop/pdmniipgbjdcpnhbkkppodechbehagki",
+      "error": null
+    },
+    {
+      "url": "https://codex-usage-profile.meleeisdeveloping.chatgpt.site",
+      "httpStatus": "200",
+      "effectiveUrl": "https://codex-usage-profile.meleeisdeveloping.chatgpt.site/",
+      "error": null
+    },
+    {
+      "url": "https://developers.openai.com/community/codex-for-oss",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developers.openai.com/community/codex-for-oss",
+      "error": null
+    },
+    {
+      "url": "https://dlxorb1012.github.io/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://dlxorb1012.github.io/",
+      "error": null
+    },
+    {
+      "url": "https://docs.google.com/document/d/1ngldWT3O5-dTSYh5pDkwM5MOJ4kjkcS8/edit?usp=sharing&ouid=112350065540225109373&rtpof=true&sd=true",
+      "httpStatus": "200",
+      "effectiveUrl": "https://docs.google.com/document/d/1ngldWT3O5-dTSYh5pDkwM5MOJ4kjkcS8/edit?usp=sharing&ouid=112350065540225109373&rtpof=true&sd=true",
+      "error": null
+    },
+    {
+      "url": "https://drive.google.com/file/d/1DkCBhzSbrIftEzOoq-d_8RH60zzHxuKh/view",
+      "httpStatus": "200",
+      "effectiveUrl": "https://drive.google.com/file/d/1DkCBhzSbrIftEzOoq-d_8RH60zzHxuKh/view",
+      "error": null
+    },
+    {
+      "url": "https://drive.google.com/file/d/1iBG6Jp-WzRagScLLcpjCrtKvhEtJ5mSd/view",
+      "httpStatus": "200",
+      "effectiveUrl": "https://drive.google.com/file/d/1iBG6Jp-WzRagScLLcpjCrtKvhEtJ5mSd/view",
+      "error": null
+    },
+    {
+      "url": "https://drive.google.com/file/d/1z0bTvOHb60WvC7uWWzvNGVFeYg-2P4OF/view?usp=sharing",
+      "httpStatus": "200",
+      "effectiveUrl": "https://drive.google.com/file/d/1z0bTvOHb60WvC7uWWzvNGVFeYg-2P4OF/view?usp=sharing",
+      "error": null
+    },
+    {
+      "url": "https://github.com/AndrewPrifer/liquid-dom#browser-and-runtime-requirements",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/AndrewPrifer/liquid-dom#browser-and-runtime-requirements",
+      "error": null
+    },
+    {
+      "url": "https://github.com/AndrewPrifer/liquid-dom/tree/master/packages/react",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/AndrewPrifer/liquid-dom/tree/master/packages/react",
+      "error": null
+    },
+    {
+      "url": "https://github.com/KangnengThonOilAndStone",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/KangnengThonOilAndStone",
+      "error": null
+    },
+    {
+      "url": "https://github.com/KangnengThonOilAndStone/NotiFYI_Web",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/KangnengThonOilAndStone/NotiFYI_Web",
+      "error": null
+    },
+    {
+      "url": "https://github.com/KangnengThonOilAndStone/NotiFYI_iOS",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/KangnengThonOilAndStone/NotiFYI_iOS",
+      "error": null
+    },
+    {
+      "url": "https://github.com/QuadFlask/react-native-naver-map",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/QuadFlask/react-native-naver-map",
+      "error": null
+    },
+    {
+      "url": "https://github.com/QuadFlask/react-native-naver-map/pull/70",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/QuadFlask/react-native-naver-map/pull/70",
+      "error": null
+    },
+    {
+      "url": "https://github.com/chikachikaApp/chika-chika-app",
+      "httpStatus": "404",
+      "effectiveUrl": "https://github.com/chikachikaApp/chika-chika-app",
+      "error": null
+    },
+    {
+      "url": "https://github.com/dlxorb1012/Changing_sit",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/dlxorb1012/Changing_sit",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/discussions/6975",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/discussions/6975",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/issues/2022",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/issues/2022",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/pull/2174",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/pull/2174",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/pull/2216",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/pull/2216",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/pull/2254",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/pull/2254",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/pull/2316",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/pull/2316",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/pull/2397",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/pull/2397",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/pull/2398",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/pull/2398",
+      "error": null
+    },
+    {
+      "url": "https://github.com/edwardkim/rhwp/pull/2401",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/edwardkim/rhwp/pull/2401",
+      "error": null
+    },
+    {
+      "url": "https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md",
+      "error": null
+    },
+    {
+      "url": "https://github.com/pmndrs/use-gesture/tree/main/packages/react",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/pmndrs/use-gesture/tree/main/packages/react",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/MuleReels",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/MuleReels",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/issues/305",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/issues/305",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/issues/307",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/issues/307",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/issues/356",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/issues/356",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/pull/349",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/pull/349",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/pull/350",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/pull/350",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/pull/358",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/pull/358",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/pull/423",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/pull/423",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/releases",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/releases",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.10",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/alhangeul-macos/releases/tag/v0.1.10",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/codex-usage-analyzer",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/codex-usage-analyzer",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/codex-usage-analyzer/pull/55",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/codex-usage-analyzer/pull/55",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/codex-usage-profile",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/codex-usage-profile",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/crop",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/crop",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/crop/tree/main/src/firefox-derived",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/crop/tree/main/src/firefox-derived",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/hyper-waterfall",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/hyper-waterfall",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/knu_lib",
+      "httpStatus": "404",
+      "effectiveUrl": "https://github.com/postmelee/knu_lib",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/liquid-portfolio",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/liquid-portfolio",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/react-native-animated-bottom-sheet",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/react-native-animated-bottom-sheet",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/react-native-kakao-album",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/react-native-kakao-album",
+      "error": null
+    },
+    {
+      "url": "https://github.com/postmelee/swanwoo_pedal",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/postmelee/swanwoo_pedal",
+      "error": null
+    },
+    {
+      "url": "https://github.com/zaidalyafeai/zaidalyafeai.github.io/tree/master/sketcher",
+      "httpStatus": "404",
+      "effectiveUrl": "https://github.com/zaidalyafeai/zaidalyafeai.github.io/tree/master/sketcher",
+      "error": null
+    },
+    {
+      "url": "https://heartrace-postmelee.onrender.com/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://heartrace-postmelee.onrender.com/",
+      "error": null
+    },
+    {
+      "url": "https://kangnengthon.site",
+      "httpStatus": "000",
+      "effectiveUrl": "https://kangnengthon.site/",
+      "error": "curl: (6) Could not resolve host: kangnengthon.site"
+    },
+    {
+      "url": "https://lnkd.in/p/gxtTT6pi",
+      "httpStatus": "200",
+      "effectiveUrl": "https://kr.linkedin.com/posts/postmelee_%E1%84%8E%E1%84%8E%E1%84%8E%EC%9A%B4%EB%8F%99%ED%9A%8C-0km%EB%8B%AC%EB%A6%AC%EA%B8%B0-%EC%8B%AC%EC%9E%A5%EB%8B%AC%EB%A6%AC%EA%B8%B0-activity-7499009290452623360-aFUP",
+      "error": null
+    },
+    {
+      "url": "https://medium.com/@meleeisdeveloping",
+      "httpStatus": "403",
+      "effectiveUrl": "https://medium.com/@meleeisdeveloping",
+      "error": null
+    },
+    {
+      "url": "https://melee.notion.site/1-3829a1d61567801d88cee4da8e5fb1db",
+      "httpStatus": "200",
+      "effectiveUrl": "https://melee.notion.site/1-3829a1d61567801d88cee4da8e5fb1db",
+      "error": null
+    },
+    {
+      "url": "https://melee.notion.site/2026-1-3a650c6ce95645f39e43c3fb3c928f96?source=copy_link",
+      "httpStatus": "200",
+      "effectiveUrl": "https://melee.notion.site/2026-1-3a650c6ce95645f39e43c3fb3c928f96?source=copy_link",
+      "error": null
+    },
+    {
+      "url": "https://postmelee.github.io/alhangeul-macos/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://postmelee.github.io/alhangeul-macos/",
+      "error": null
+    },
+    {
+      "url": "https://postmelee.github.io/liquid-portfolio/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://postmelee.github.io/liquid-portfolio/",
+      "error": null
+    },
+    {
+      "url": "https://postmelee.github.io/portfolio/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://postmelee.github.io/portfolio/",
+      "error": null
+    },
+    {
+      "url": "https://postmelee.github.io/portfolio/og-image-20260902.png",
+      "httpStatus": "200",
+      "effectiveUrl": "https://postmelee.github.io/portfolio/og-image-20260902.png",
+      "error": null
+    },
+    {
+      "url": "https://sae.kangnam.ac.kr/menu/board/info/e38fb5074d558dd5c570c62c9f36fdce.do?scrtWrtiYn=false&encMenuSeq=48dc6102478453cce8f11c85f0b65427&encMenuBoardSeq=fd8377a25894712a5f67b2c2c641d190",
+      "httpStatus": "200",
+      "effectiveUrl": "https://sae.kangnam.ac.kr/menu/board/info/e38fb5074d558dd5c570c62c9f36fdce.do?scrtWrtiYn=false&encMenuSeq=48dc6102478453cce8f11c85f0b65427&encMenuBoardSeq=fd8377a25894712a5f67b2c2c641d190",
+      "error": null
+    },
+    {
+      "url": "https://swanwoopedals.vercel.app",
+      "httpStatus": "200",
+      "effectiveUrl": "https://swanwoopedals.vercel.app/",
+      "error": null
+    },
+    {
+      "url": "https://wicg.github.io/html-in-canvas/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://wicg.github.io/html-in-canvas/",
+      "error": null
+    },
+    {
+      "url": "https://www.gcon.or.kr/board/view?menuId=MENU02147&linkId=11788",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.gcon.or.kr/board/view?menuId=MENU02147&linkId=11788",
+      "error": null
+    },
+    {
+      "url": "https://www.linkedin.com/in/postmelee/",
+      "httpStatus": "999",
+      "effectiveUrl": "https://www.linkedin.com/in/postmelee/",
+      "error": null
+    },
+    {
+      "url": "https://www.npmjs.com/package/codex-usage-analyzer",
+      "httpStatus": "403",
+      "effectiveUrl": "https://www.npmjs.com/package/codex-usage-analyzer",
+      "error": null
+    },
+    {
+      "url": "https://www.npmjs.com/package/codex-usage-profile",
+      "httpStatus": "403",
+      "effectiveUrl": "https://www.npmjs.com/package/codex-usage-profile",
+      "error": null
+    },
+    {
+      "url": "https://www.turtleschool.kr/",
+      "httpStatus": "000",
+      "effectiveUrl": "https://www.turtleschool.kr/",
+      "error": "curl: (6) Could not resolve host: www.turtleschool.kr"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xYOGsHthFtE",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.youtube.com/watch?v=xYOGsHthFtE",
+      "error": null
+    },
+    {
+      "url": "https://aws.amazon.com/cloudfront/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://aws.amazon.com/cloudfront/",
+      "error": null
+    },
+    {
+      "url": "https://aws.amazon.com/ec2/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://aws.amazon.com/ec2/",
+      "error": null
+    },
+    {
+      "url": "https://aws.amazon.com/s3/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://aws.amazon.com/s3/",
+      "error": null
+    },
+    {
+      "url": "https://developer.apple.com/documentation/appkit",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.apple.com/documentation/appkit",
+      "error": null
+    },
+    {
+      "url": "https://developer.apple.com/documentation/quicklook",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.apple.com/documentation/quicklook",
+      "error": null
+    },
+    {
+      "url": "https://developer.apple.com/documentation/quicklookthumbnailing",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.apple.com/documentation/quicklookthumbnailing",
+      "error": null
+    },
+    {
+      "url": "https://developer.apple.com/documentation/security/notarizing-macos-software-before-distribution",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.apple.com/documentation/security/notarizing-macos-software-before-distribution",
+      "error": null
+    },
+    {
+      "url": "https://developer.apple.com/documentation/swiftui",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.apple.com/documentation/swiftui",
+      "error": null
+    },
+    {
+      "url": "https://developer.apple.com/documentation/uikit",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.apple.com/documentation/uikit",
+      "error": null
+    },
+    {
+      "url": "https://developer.apple.com/documentation/webkit/wkwebview",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.apple.com/documentation/webkit/wkwebview",
+      "error": null
+    },
+    {
+      "url": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html",
+      "error": null
+    },
+    {
+      "url": "https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3",
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "error": null
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "httpStatus": "200",
+      "effectiveUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "error": null
+    },
+    {
+      "url": "https://doc.rust-lang.org/nomicon/ffi.html",
+      "httpStatus": "200",
+      "effectiveUrl": "https://doc.rust-lang.org/nomicon/ffi.html",
+      "error": null
+    },
+    {
+      "url": "https://docs.github.com/en/actions",
+      "httpStatus": "200",
+      "effectiveUrl": "https://docs.github.com/en/actions",
+      "error": null
+    },
+    {
+      "url": "https://docs.github.com/en/issues",
+      "httpStatus": "200",
+      "effectiveUrl": "https://docs.github.com/en/issues",
+      "error": null
+    },
+    {
+      "url": "https://firebase.google.com/docs/cloud-messaging",
+      "httpStatus": "200",
+      "effectiveUrl": "https://firebase.google.com/docs/cloud-messaging",
+      "error": null
+    },
+    {
+      "url": "https://github.com/AndrewPrifer/liquid-dom",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/AndrewPrifer/liquid-dom",
+      "error": null
+    },
+    {
+      "url": "https://github.com/IjzerenHein/react-native-shared-element",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/IjzerenHein/react-native-shared-element",
+      "error": null
+    },
+    {
+      "url": "https://github.com/SnapKit/SnapKit",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/SnapKit/SnapKit",
+      "error": null
+    },
+    {
+      "url": "https://github.com/TanStack/query",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/TanStack/query",
+      "error": null
+    },
+    {
+      "url": "https://github.com/WebAssembly/spec",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/WebAssembly/spec",
+      "error": null
+    },
+    {
+      "url": "https://github.com/axios/axios",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/axios/axios",
+      "error": null
+    },
+    {
+      "url": "https://github.com/chartjs/Chart.js",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/chartjs/Chart.js",
+      "error": null
+    },
+    {
+      "url": "https://github.com/cheeriojs/cheerio",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/cheeriojs/cheerio",
+      "error": null
+    },
+    {
+      "url": "https://github.com/commonmark/commonmark-spec",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/commonmark/commonmark-spec",
+      "error": null
+    },
+    {
+      "url": "https://github.com/devxoul/Then",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/devxoul/Then",
+      "error": null
+    },
+    {
+      "url": "https://github.com/expo/expo",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/expo/expo",
+      "error": null
+    },
+    {
+      "url": "https://github.com/expo/expo/tree/main/packages/expo-image",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/expo/expo/tree/main/packages/expo-image",
+      "error": null
+    },
+    {
+      "url": "https://github.com/expo/expo/tree/main/packages/expo-router",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/expo/expo/tree/main/packages/expo-router",
+      "error": null
+    },
+    {
+      "url": "https://github.com/expo/expo/tree/main/packages/expo-secure-store",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/expo/expo/tree/main/packages/expo-secure-store",
+      "error": null
+    },
+    {
+      "url": "https://github.com/facebookresearch/faiss",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/facebookresearch/faiss",
+      "error": null
+    },
+    {
+      "url": "https://github.com/fastapi/fastapi",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/fastapi/fastapi",
+      "error": null
+    },
+    {
+      "url": "https://github.com/firebase/firebase-js-sdk",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/firebase/firebase-js-sdk",
+      "error": null
+    },
+    {
+      "url": "https://github.com/git/git",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/git/git",
+      "error": null
+    },
+    {
+      "url": "https://github.com/highcharts/highcharts",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/highcharts/highcharts",
+      "error": null
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchain",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/langchain-ai/langchain",
+      "error": null
+    },
+    {
+      "url": "https://github.com/microsoft/TypeScript",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/microsoft/TypeScript",
+      "error": null
+    },
+    {
+      "url": "https://github.com/mrdoob/three.js",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/mrdoob/three.js",
+      "error": null
+    },
+    {
+      "url": "https://github.com/mui/material-ui",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/mui/material-ui",
+      "error": null
+    },
+    {
+      "url": "https://github.com/necolas/react-native-web",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/necolas/react-native-web",
+      "error": null
+    },
+    {
+      "url": "https://github.com/nodejs/node",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/nodejs/node",
+      "error": null
+    },
+    {
+      "url": "https://github.com/pmndrs/drei",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/pmndrs/drei",
+      "error": null
+    },
+    {
+      "url": "https://github.com/pmndrs/react-spring",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/pmndrs/react-spring",
+      "error": null
+    },
+    {
+      "url": "https://github.com/pmndrs/react-three-fiber",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/pmndrs/react-three-fiber",
+      "error": null
+    },
+    {
+      "url": "https://github.com/pmndrs/use-gesture",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/pmndrs/use-gesture",
+      "error": null
+    },
+    {
+      "url": "https://github.com/react-navigation/react-navigation",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/react-navigation/react-navigation",
+      "error": null
+    },
+    {
+      "url": "https://github.com/react/react",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/react/react",
+      "error": null
+    },
+    {
+      "url": "https://github.com/react/react-native",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/react/react-native",
+      "error": null
+    },
+    {
+      "url": "https://github.com/reduxjs/react-redux",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/reduxjs/react-redux",
+      "error": null
+    },
+    {
+      "url": "https://github.com/reduxjs/redux",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/reduxjs/redux",
+      "error": null
+    },
+    {
+      "url": "https://github.com/rust-lang/rust",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/rust-lang/rust",
+      "error": null
+    },
+    {
+      "url": "https://github.com/software-mansion/react-native-gesture-handler",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/software-mansion/react-native-gesture-handler",
+      "error": null
+    },
+    {
+      "url": "https://github.com/software-mansion/react-native-reanimated",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/software-mansion/react-native-reanimated",
+      "error": null
+    },
+    {
+      "url": "https://github.com/sparkle-project/Sparkle",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/sparkle-project/Sparkle",
+      "error": null
+    },
+    {
+      "url": "https://github.com/styled-components/styled-components",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/styled-components/styled-components",
+      "error": null
+    },
+    {
+      "url": "https://github.com/swiftlang/swift",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/swiftlang/swift",
+      "error": null
+    },
+    {
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/tailwindlabs/tailwindcss",
+      "error": null
+    },
+    {
+      "url": "https://github.com/uias/Pageboy",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/uias/Pageboy",
+      "error": null
+    },
+    {
+      "url": "https://github.com/uias/Tabman",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/uias/Tabman",
+      "error": null
+    },
+    {
+      "url": "https://github.com/vercel/next.js",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/vercel/next.js",
+      "error": null
+    },
+    {
+      "url": "https://github.com/vitejs/vite",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/vitejs/vite",
+      "error": null
+    },
+    {
+      "url": "https://github.com/vitest-dev/vitest",
+      "httpStatus": "200",
+      "effectiveUrl": "https://github.com/vitest-dev/vitest",
+      "error": null
+    },
+    {
+      "url": "https://json-schema.org/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://json-schema.org/",
+      "error": null
+    },
+    {
+      "url": "https://sass-lang.com/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://sass-lang.com/",
+      "error": null
+    },
+    {
+      "url": "https://slack.com/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://slack.com/",
+      "error": null
+    },
+    {
+      "url": "https://www.figma.com/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.figma.com/",
+      "error": null
+    },
+    {
+      "url": "https://www.gitbook.com/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.gitbook.com/",
+      "error": null
+    },
+    {
+      "url": "https://www.hancom.com/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.hancom.com/",
+      "error": null
+    },
+    {
+      "url": "https://www.ncloud.com/product/applicationService/maps",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.ncloud.com/product/applicationService/maps",
+      "error": null
+    },
+    {
+      "url": "https://www.netlify.com/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.netlify.com/",
+      "error": null
+    },
+    {
+      "url": "https://www.notion.com/",
+      "httpStatus": "200",
+      "effectiveUrl": "https://www.notion.com/",
+      "error": null
+    },
+    {
+      "url": "https://www.npmjs.com/",
+      "httpStatus": "403",
+      "effectiveUrl": "https://www.npmjs.com/",
+      "error": null
+    }
+  ]
+}

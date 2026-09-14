@@ -355,7 +355,7 @@ a:hover {
   color: var(--text);
 }
 
-@media (min-width: 1181px) {
+@media (min-width: 1400px) {
   .section-toc {
     pointer-events: none;
   }
@@ -1621,7 +1621,7 @@ a:hover {
   margin-top: 18px;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1399px) {
   html {
     scroll-padding-top: 164px;
   }
